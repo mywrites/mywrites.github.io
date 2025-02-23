@@ -1,10 +1,9 @@
 ---
 layout: default
-title: "Appgate"
+title: "Appgate SDP"
 category: "Cybersecurity"
 ---
 
-# Appgate SDP
 Appgate Software-Defined Perimeter (SDP) is a Department of Defense (DoD)-approved authentication service. This Zero Trust solution provides secure access to DoD networks and associated data. Managed by the Platform One (P1) Cloud Native Access Point (CNAP) team, Appgate SDP provides a range of network security protections to include:
 
 * Denying implicit trust to a single user, device, or application.

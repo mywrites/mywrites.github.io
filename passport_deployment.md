@@ -4,8 +4,6 @@ title: "Passport Deployment"
 category: "Cybersecurity"
 ---
 
-# Passport Deployment
-
 Deployment Passport, a Game Warden-specific term, is a body of evidence that includes the artifacts required to meet Authority to Operate (ATO) requirements. A Deployment Passport, signed by a government Information Systems Security Manager (ISSM), allows you as customers to **inherit** our ATO; a permission which authorizes application deployments into both the Staging (STG) and Production (PRD) environments.
 
 The ATO is non-transferable and only valid for Game Warden-hosted applications.

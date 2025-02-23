@@ -4,8 +4,6 @@ title: "Welcome"
 category: "Cybersecurity"
 ---
 
-# Welcome
-
 Thank you again for joining the Game Warden team!
 
 We have organized the Help Center content intuitively such that, particularly as new users, you can navigate the topics in the left pane sequentially to gain a complete understanding of the Game Warden product and processes. If you are already familiar with our product, you can select any of the left pane topics to learn more. We also have incorporated a Quick Start section that allows you to immediately get down to business.
