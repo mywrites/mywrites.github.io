@@ -1,10 +1,16 @@
-# PURPOSE OF POLICY
+---
+layout: default
+title: "Application Delivery Method"
+---
+
+
+# Application Delivery
 This policy establishes a set of requirements designed to standardize application delivery methods; more specifically, this policy ensures there is a consistent, efficient, and secure method in place for moving applications from servers to user workstations. Citrix, located on the desktop, is the mechanism servers use to deliver applications – using the product: XenApp. The XenApp software allows the operation of all of our company's medical applications. The XenApp software, not visible to users, allows Citrix Administrators to access the application to troubleshoot issues. The Citrix XenApp and XenDesktop technologies are the primary methods for delivering applications to user workstations.
 
-## POLICY STATEMENT
+## Policy Statement
 The *Citrix XenApp* policy identifies the requirements that must be satisfied to provide standard application delivery to user workstations.
 
-## PROCEDURES
+## Procedures
 The procedures delineated below must be followed to comply with the Citrix XenApp policy for data centers.
 1. IT must provide a supported, current, and stable Windows XenApp server that meets the hardware and software requirements from the application vendor.
 1. IT support must require that any vendor application be compatible with a supported version of XenApp, Windows OS, and all components within the OS such that they meet IT application and security standards. In addition, as versions of the XenApp and Windows server operating systems become outdated and unsupported, IT support must have assurances, in writing, that a technical roadmap exists for upgrades and configuration changes for 5-year vendor support of any Citrix resource published in the Citrix environment.

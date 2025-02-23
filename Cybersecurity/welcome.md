@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Welcome"
+---
+
+
 # Welcome
 
 Thank you again for joining the Game Warden team!

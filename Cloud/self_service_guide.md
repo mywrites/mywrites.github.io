@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Cloud Self-Service Guide"
+---
+
+
 # Cloud Self-Service Guide
 
 ## Infrastructure as a Service
@@ -12,7 +18,7 @@ IaaS provides the option of choosing from three cloud computing service models, 
 * **Private Cloud**
   * You host the cloud service. Unlike the public cloud service, the private cloud is not shared by other tenants and, as such, you are the sole tenant. In addition, you house the hardware which, generally, is in an on-premises location.
 * **Hybrid Cloud**
- * A cloud service that uses public and private cloud offerings, giving the flexibility to tailor the services you consume to meet your requirements. For example, it is common for companies to use on-premises equipment (private cloud) – extending the IT infrastructure to an off-premises location and shared equipment (public cloud) when there is unexpected growth or expansion.
+  * A cloud service that uses public and private cloud offerings, giving the flexibility to tailor the services you consume to meet your requirements. For example, it is common for companies to use on-premises equipment (private cloud) – extending the IT infrastructure to an off-premises location and shared equipment (public cloud) when there is unexpected growth or expansion.
 
 The IaaS category contains the Compute, Storage, and Bundles subcategories.
 
@@ -31,9 +37,9 @@ The **Compute** window contains the **Name**, **Num CPU**, **Memory**, **Disk**,
 1.	Click the checkbox associated with the VM you want to adjust to modify a line item or row.
 1.	Click the **Actions** drop-down list box and select the modification.
     The action you select will be enacted upon the server you identified via your previous checkbox selection.
-1.	Click the checkbox associated with the server you want to adjust and select **Stop** from the Actions drop-down list box.
-A system message appears indicating that the server has been stopped; in addition, the color of the circular image in the Status column changes from green to red.
-1.	Click the checkbox associated with the server you want to adjust and select Start from the **Actions** drop-down list box to restart the server.
+1.	Click the checkbox associated with the server you want to adjust and select **Stop** from the **Actions** drop-down list box.
+    A system message appears indicating that the server has been stopped; in addition, the color of the circular image in the Status column changes from green to red.
+1.	Click the checkbox associated with the server you want to adjust and select **Start** from the **Actions** drop-down list box to restart the server.
     A system message appears indicating that the server has started; in addition, the color of the circular image in the **Status** column changes from red to green.
 1.	Click the **Refresh** link to ensure you are viewing updated information.
 

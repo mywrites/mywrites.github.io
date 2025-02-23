@@ -1,8 +1,14 @@
+---
+layout: default
+title: "Quick Start Guide"
+---
+
+
 # Quick Start Guide
-The Synadia Cloud user guides, which accompany the Walkthrough ![videos](https://docs.synadia.com/cloud/walkthrough), explore the dashboard and provide setup instructions. You can leverage this insight to configure your environment.
+The Synadia Cloud user guides, which accompany the Walkthrough [videos](https://docs.synadia.com/cloud/walkthrough), explore the dashboard and provide setup instructions. You can leverage this insight to configure your environment.
 
 ## Prerequisites
-1. ![Synadia Cloud Sign-up](https://cloud.synadia.com./)
+1. [Synadia Cloud Sign-up](https://cloud.synadia.com./)
 1. NATS CLI installation
 
     Access [GitHub Releases](https://github.com/nats-io/natscli/releases): Scroll to **Assets** (click **Show All**) and choose appropriate OS zip file, such as **linux-amd64.zip** or **windows-amd64.zip**
@@ -13,16 +19,16 @@ The Synadia Cloud user guides, which accompany the Walkthrough ![videos](https:/
 
     Our default system is available.
 
-1. ![Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install) installation (Windows users only)
+1. [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install) installation (Windows users only)
 
 ## Overview
-Five user guides accompany the Synadia Cloud Walkthrough ![videos](https://docs.synadia.com/cloud/walkthrough):
+Five user guides accompany the Synadia Cloud Walkthrough [videos](https://docs.synadia.com/cloud/walkthrough):
 
-1. ![Synadia Cloud Overview](https://docs.synadia.com/cloud/user-guides/sc-overview)
-1. ![Connection Graph](https://docs.synadia.com/cloud/user-guides/connection-graph)
-1. ![User Management](https://docs.synadia.com/cloud/user-guides/user-mgmt)
-1. ![JetStream Management](https://docs.synadia.com/cloud/user-guides/jetstream-mgmt)
-1. ![Cross-Account Sharing](https://docs.synadia.com/cloud/user-guides/cross-acct-share)
+1. [Synadia Cloud Overview](https://docs.synadia.com/cloud/user-guides/sc-overview)
+1. [Connection Graph](https://docs.synadia.com/cloud/user-guides/connection-graph)
+1. [User Management](https://docs.synadia.com/cloud/user-guides/user-mgmt)
+1. [JetStream Management](https://docs.synadia.com/cloud/user-guides/jetstream-mgmt)
+1. [Cross-Account Sharing](https://docs.synadia.com/cloud/user-guides/cross-acct-share)
 
 ## Quick Start Workflow
 
@@ -137,8 +143,8 @@ To establish a connection:
 
     The **Connections** tab also displays data.
 
-[Connection Graph](../img/syn_qs_connect.graph11.png)
+   ![Connection Graph](../img/syn_qs_connect.graph11.png)
 
 You have acquired Synadia Cloud provisioned and authenticated credentials, which are used to connect to the NATS server. More specifically, when you created a user, you downloaded a **Credentials** file that allowed your Synadia Cloud user to authenticate with the NATS server. We have specific tools available, such as the NATS Go Client, that allow you to connect to the NATS server by embedding this code within your app/device/microservice (user). This applies if your app, for example, is coded in Go. Similarly, if your app/device/microservice (user) is coded in Python or JavaScript, you’ll use the Python Client or JavaScript Client, respectively, to connect to the NATS server. We also support C, C#, Java, .NET, and Rust.
 
-Next, we recommend that you read the [Synadia Cloud Overview User Guide](http://localhost:3000/cloud/user-guides/sc-overview).
+Next, we recommend that you read the [Synadia Cloud Overview User Guide](https://docs.synadia.com/cloud/user-guides/sc-overview).

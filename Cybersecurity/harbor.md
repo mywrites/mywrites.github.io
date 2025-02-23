@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Harbor Overview"
+---
+
 # Harbor Overview
 
 The Game Warden team uses Harbor as its secure image registry. As an open source and feature-rich registry, Harbor manages the images you push into this environment. Our Continuous Integration/Continuous Deployment (CI/CD) pipelines move your images through the scanning and hardening processes. The Game Warden team uses Anchore Enterprise and Prisma Cloud to both scan/harden images and identify vulnerabilities.
@@ -16,9 +21,8 @@ When you use unmodified Iron Bank images in your deployment, the Game Warden tea
 1.	Ensure you have authorization to push images into Harbor on behalf of your company. You must provide our Customer Operations team with a list containing the **Username** and **Email Address** for each authorized user.
 Harbor Access¶
 1.	Navigate to [Harbor](https://registry.gamewarden.io/account/sign-in?redirect_url=%2Fharbor%2Fprojects).
-1.	Click **Login via OICD Provider** and, then click **Login with P1 SSO**, enter your P1 SSO login credentials.
-The **Projects** page opens, displaying a table.
-
+1.	Click **Login via OICD Provider** then click **Login with P1 SSO**, entering your P1 SSO login credentials. <br/>
+   The **Projects** page opens, displaying a table.
    ![Harbor](../img/harbor1.png)
 
 1. Click to select your project. (Contact our Customer Operations team via Slack if your project is unavailable for selection.)
@@ -29,15 +33,18 @@ The **Projects** page opens, displaying a table.
 **NOTE** 
 This page (middle right) displays **PUSH COMMAND**. Select this option to open a modal and view the required terminal syntax for Docker push commands. The information in this modal serves as a mere guide to assist you with syntax. You can use the **Tag an image for this project** and **Push an image to this project** syntax, copying each line from this modal for ease of use.
 
-# Harbor Credentials
+## Harbor Credentials
 1. Select your P1 account name (top right of **Projects** page) and, from the drop-down list box, click **User Profile**.
-  The **User Profile** modal opens, displaying several fields to include the last entry **CLI secret**. A **Copy** icon (overlapping squares) appears at the end of this field.
+
+   The **User Profile** modal opens, displaying several fields to include the last entry **CLI secret**. A **Copy** icon (overlapping squares) appears at the end of this field.
 
    ![Harbor](../img/harbor3.png)
 
 1. Retrieve your **CLI secret** by clicking the **Copy** icon.
+
    A banner opens at the top of the **User Profile** modal and contains the text, copy success.
 1. Record the text in the **Username** field, as you will need this information in a subsequent step.
+
    The copied **CLI secret** remains in your clipboard.
 1. Click **CANCEL** to close the **User Profile** modal.
 

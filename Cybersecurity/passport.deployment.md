@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Passport Deployment"
+---
+
+
 # Passport Deployment
 
 Deployment Passport, a Game Warden-specific term, is a body of evidence that includes the artifacts required to meet Authority to Operate (ATO) requirements. A Deployment Passport, signed by a government Information Systems Security Manager (ISSM), allows you as customers to **inherit** our ATO; a permission which authorizes application deployments into both the Staging (STG) and Production (PRD) environments.
@@ -25,5 +31,5 @@ You must have a signature-approved Deployment Passport for each Impact Level con
 
 The Game Warden team uploads this body of evidence into the **Deployment Passports** section of the Documents page in the Game Warden Web App.
 
-## Updates and Expiration¶
+## Updates and Expiration
 You must **update** the Deployment Passport and SSP with **each major release (or annually and before the current Deployment Passport expires)**. After you update the SSP, the Security team generates the remaining content to include Scan Results. Minor releases or patches do not require a new Deployment Passport or SSP.
