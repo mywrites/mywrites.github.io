@@ -26,9 +26,9 @@ To establish Keycloak SSO:
 
     The system returns you to the **REDACTED COMPANY** page.
 
-1. Click **Log in with **REDACTED PARTNER PLATFORM SSO**.
+1. Click **Log in with REDACTED PARTNER PLATFORM SSO**.
 1. Enter your login credentials and proceed with Multi-factor Authentication (MFA).
-    The system returns you to the **Keycloak Account** page. The **Sign in**** button now reads Sign out**, an indication that you have Keycloak account access. From the left navigation pane, **Signing in** is selected. This page also displays **Set up Password** (if you have never established a password, else **Update** displays) and **Set up authenticator application**. You must establish each.
+    The system returns you to the **Keycloak Account** page. The **Sign in** button now reads **Sign out**, an indication that you have Keycloak account access. From the left navigation pane, **Signing in** is selected. This page also displays **Set up Password** (if you have never established a password, else **Update** displays) and **Set up authenticator application**. You must establish each.
 
 ![Keycloak](/img/keycloak2.png)
 
