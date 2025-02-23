@@ -3,7 +3,6 @@ layout: default
 title: "Self-Service Guide"
 category: "Cloud"
 ---
-
 ## Infrastructure as a Service
 Infrastructure as a Service (IaaS) allows you to outsource computing hardware (storage, servers, and network components). You can access this equipment via our cloud and pay for this computing hardware on a pay-as-you-go basis. We own the equipment and are responsible for all computing hardware maintenance, upgrades, and troubleshooting.
 

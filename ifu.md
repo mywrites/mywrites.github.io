@@ -3,7 +3,6 @@ layout: default
 title: "Priming Station Instructions for Use"
 category: "Life Sciences"
 ---
-
 The Medical Device is designed to detect human genetic diseases via an automated molecular diagnostic system, using Polymerase Chain Reaction (PCR) for DNA amplification and High Resolution Melting Analysis (HRMA) for DNA detection.
 
 The Medical Device is intended for Research Use Only and is not to be used in diagnostic procedures.

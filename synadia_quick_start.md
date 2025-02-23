@@ -3,7 +3,6 @@ layout: default
 title: "Quick Start Guide"
 category: "Configuration"
 ---
-
 The Synadia Cloud user guides, which accompany the Walkthrough [videos](https://docs.synadia.com/cloud/walkthrough), explore the dashboard and provide setup instructions. You can leverage this insight to configure your environment.
 
 ## Prerequisites

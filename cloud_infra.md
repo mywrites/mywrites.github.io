@@ -3,7 +3,6 @@ layout: default
 title: "Cloud Infrastructure"
 category: "Cloud"
 ---
-
 **REDACTED Company A** is an Amazon Web Services (AWS) partner and leading cloud solutions company, providing managed hosting along with a range of IT services and infrastructure support for businesses in the U.S. and abroad. 
 
 To provide its clients with complete access to their cloud resources, the product allows clients to access their cloud platform assets, perform routine tasks, monitor services, view reports, and make payments – all independent of customer representatives. 
