@@ -18,12 +18,15 @@ When you use unmodified Iron Bank images in your deployment, the Game Warden tea
 # Prerequisites
 1.	Create a [Platform One (P1) Single Sign-On (SSO)](https://helpcenter.gamewarden.io/integrations-access/platform_one/) account.
 1.	Ensure you have authorization to push images into Harbor on behalf of your company. You must provide our Customer Operations team with a list containing the **Username** and **Email Address** for each authorized user.
-Harbor Access¶
-1.	Navigate to [Harbor](https://registry.gamewarden.io/account/sign-in?redirect_url=%2Fharbor%2Fprojects).
-1.	Click **Login via OICD Provider** then click **Login with P1 SSO**, entering your P1 SSO login credentials. <br/>
-   The **Projects** page opens, displaying a table.
-   ![Harbor](/img/harbor1.png)
 
+## Harbor Access
+1.	Navigate to [Harbor](https://registry.gamewarden.io/account/sign-in?redirect_url=%2Fharbor%2Fprojects).
+1.	Click **Login via OICD Provider** then click **Login with P1 SSO**, entering your P1 SSO login credentials.
+
+   The **Projects** page opens, displaying a table.
+   
+   ![Harbor](/img/harbor1.png)
+  
 1. Click to select your project. (Contact our Customer Operations team via Slack if your project is unavailable for selection.)
    A new page opens, defaulting to the **Repositories** tab.
 
