@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Cloud Self-Service Guide"
+title: "Self-Service Guide"
 category: "Cloud"
 ---
 
