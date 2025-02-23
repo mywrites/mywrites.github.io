@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Appgate"
+category: "Cybersecurity"
 ---
 
 # Appgate SDP
