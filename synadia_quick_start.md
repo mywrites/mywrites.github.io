@@ -32,12 +32,12 @@ Five user guides accompany the Synadia Cloud Walkthrough [videos](https://docs.s
 
 ## Quick Start Workflow
 
-[Workflow](../img/syn_qs1.png)
+![Workflow](/img/syn_qs1.png)
 
 ## System
 After Synadia Cloud Sign-up, you access the dashboard.
 
-![Dashboard](../img/syn_qs_dash2.png)
+![Dashboard](/img/syn_qs_dash2.png)
 
 To access a system:
 
@@ -45,7 +45,7 @@ Click **NGS**.
 
 This document, as with all user guides, uses the **Personal/Free** tier. This tier includes two accounts; one is a **Default**, which you can modify.
 
-![Default Account](../img/syn_qs_default_acct3.png)
+![Default Account](/img/syn_qs_default_acct3.png)
 
 ## Account
 Accounts allow you to allocate resources and commonly include business functions (Order, Purchase, Ship) or reflect DEV/TEST/PROD environments. The accounts you create will depend on your use case. In our example, we add an account specific to an app that manages orders: **Cloud_Acct**.
@@ -61,7 +61,7 @@ To create an account:
 
     **Create Account** becomes disabled and unavailable for selection, as you now have two accounts in use.
 
-    ![Create Account Disabled](../img/syn_qs_acct_disabled.png)
+    ![Create Account Disabled](/img/syn_qs_acct_disabled.png)
 
 ## User
 Users are commonly apps, devices, or microservices. The users you create will depend on your use case. In our example, the user is an app: **cloud**.
@@ -71,20 +71,20 @@ To create a user:
 1. Click your new app account, **Cloud_Acct**.
 1. Click the **Users** tab.
 
-   ![Cloud Account](../img/syn_qs_cloudacct1.png)
+   ![Cloud Account](/img/syn_qs_cloudacct1.png)
 
 1. Click **Create User**.
 1. Designate your user parameters.
 1. **Save** your updates.
 
    The table displays the user you created.
-   ![Cloud Account](../img/syn_qs_cloudacct2.png)
+   ![Cloud Account](/img/syn_qs_cloudacct2.png)
 
 1. Click your new user from the **Name** column.
 
     The **Overview** window opens. There are no **Active Connections** or **Subscriptions**. There is also no **Recent Activity**. **Get Connected** appears near the top right of the window.
 
-    ![Overview No Data](../img/syn_qs_overview_no_data6.png)
+    ![Overview No Data](/img/syn_qs_overview_no_data6.png)
 
 ## Connection
 **For new users**: Step 1 in the **Get Connected** window referenced below requires that you download a **Credentials** file. Save this file in your **nats-cli** folder, created as a prerequisite. If you did not create the **nats-cli** folder, save the **Credentials** file in the same folder as your **nats-cli**. You might also prefer to use environment variables.
@@ -99,7 +99,7 @@ To establish a connection:
 
     A window by the same name opens, providing connection access via **CLI**, **MQTT**, or **HTTP** Gateway. For this **Quick Start Guide**, use **CLI** (default).
 
-    ![Get Connected Cloud User](../img/syn_qs_getconnect7.png)
+    ![Get Connected Cloud User](/img/syn_qs_getconnect7.png)
 
 1. **Step 1: Download Credentials**
 
@@ -123,7 +123,7 @@ To establish a connection:
 
     .\nats context save --select "NGS-Cloud_Acct-cloud"  --server "tls://connect.ngs.global"  --creds   C:\Synadia_Software\nats-cli\NGS-Cloud_Acct-cloud.creds
 
-    ![Get Connected Cloud User Connect OK](../img/syn_qs_connectok8.png)
+    ![Get Connected Cloud User Connect OK](/img/syn_qs_connectok8.png)
 
     The **Connection: OK** terminal message appears.
 
@@ -131,19 +131,19 @@ To establish a connection:
 
     .\nats sub ">"
 
-    ![Cloud User NATS Sub](../img/syn_qs_subscribeon9.png)
+    ![Cloud User NATS Sub](/img/syn_qs_subscribeon9.png)
 
     **Subscribing on >** confirms communication.
 
 1. Return to the UI, click **Done** to exit **Get Connected**, and **Refresh** the now open **Overview** window to view data in **Active Connections**, **Subscriptions**, and **Recent Activity**.
 
-    ![Cloud User Overview with Data](../img/syn_qs_overviewdata9.png)
+    ![Cloud User Overview with Data](/img/syn_qs_overviewdata9.png)
 
 1. Click the **Connections** tab.
 
     The **Connections** tab also displays data.
 
-   ![Connection Graph](../img/syn_qs_connect.graph11.png)
+   ![Connection Graph](/img/syn_qs_connect.graph11.png)
 
 You have acquired Synadia Cloud provisioned and authenticated credentials, which are used to connect to the NATS server. More specifically, when you created a user, you downloaded a **Credentials** file that allowed your Synadia Cloud user to authenticate with the NATS server. We have specific tools available, such as the NATS Go Client, that allow you to connect to the NATS server by embedding this code within your app/device/microservice (user). This applies if your app, for example, is coded in Go. Similarly, if your app/device/microservice (user) is coded in Python or JavaScript, you’ll use the Python Client or JavaScript Client, respectively, to connect to the NATS server. We also support C, C#, Java, .NET, and Rust.
 

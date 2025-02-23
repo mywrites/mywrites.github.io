@@ -23,12 +23,12 @@ Harbor Access¶
 1.	Navigate to [Harbor](https://registry.gamewarden.io/account/sign-in?redirect_url=%2Fharbor%2Fprojects).
 1.	Click **Login via OICD Provider** then click **Login with P1 SSO**, entering your P1 SSO login credentials. <br/>
    The **Projects** page opens, displaying a table.
-   ![Harbor](../img/harbor1.png)
+   ![Harbor](/img/harbor1.png)
 
 1. Click to select your project. (Contact our Customer Operations team via Slack if your project is unavailable for selection.)
    A new page opens, defaulting to the **Repositories** tab.
 
-   ![Harbor](../img/harbor2.png)
+   ![Harbor](/img/harbor2.png)
 
 **NOTE** 
 This page (middle right) displays **PUSH COMMAND**. Select this option to open a modal and view the required terminal syntax for Docker push commands. The information in this modal serves as a mere guide to assist you with syntax. You can use the **Tag an image for this project** and **Push an image to this project** syntax, copying each line from this modal for ease of use.
@@ -38,7 +38,7 @@ This page (middle right) displays **PUSH COMMAND**. Select this option to open a
 
    The **User Profile** modal opens, displaying several fields to include the last entry **CLI secret**. A **Copy** icon (overlapping squares) appears at the end of this field.
 
-   ![Harbor](../img/harbor3.png)
+   ![Harbor](/img/harbor3.png)
 
 1. Retrieve your **CLI secret** by clicking the **Copy** icon.
 
