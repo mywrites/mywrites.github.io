@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Quick Start Guide"
-category: "Software Configuration"
+category: "Configuration"
 ---
 
 # Quick Start Guide
