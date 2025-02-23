@@ -1,5 +1,5 @@
 ---
 layout: default
-title: "Welcome"
-category: "APIs"
+title: "API References"
+category: "API References"
 ---
