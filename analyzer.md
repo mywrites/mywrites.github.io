@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Medical Device Analyzer"
+title: "Medical Device"
 category: "Life Sciences"
 ---
 ![Analyzer](/img/analyze1.png)
