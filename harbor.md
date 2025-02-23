@@ -23,9 +23,9 @@ When you use unmodified Iron Bank images in your deployment, the Game Warden tea
 1.	Navigate to [Harbor](https://registry.gamewarden.io/account/sign-in?redirect_url=%2Fharbor%2Fprojects).
 1.	Click **Login via OICD Provider** then click **Login with P1 SSO**, entering your P1 SSO login credentials.
 
-   The **Projects** page opens, displaying a table.
+     The **Projects** page opens, displaying a table.
    
-   ![Harbor](/img/harbor1.png)
+     ![Harbor](/img/harbor1.png)
   
 1. Click to select your project. (Contact our Customer Operations team via Slack if your project is unavailable for selection.)
    A new page opens, defaulting to the **Repositories** tab.

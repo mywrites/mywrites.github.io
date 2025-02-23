@@ -22,7 +22,7 @@ The implementation of Appgate and Palo Alto firewalls provides DoD-approved solu
 
 For additional information, read Cloud Native Access Point.
 
-## Installing Appgate SDP¶
+## Installing Appgate SDP
 To install and run Appgate SDP:
 1. Download a Multi-factor Authentication (MFA) application.
 1. Create a P1 SSO account.
@@ -48,9 +48,9 @@ This P1 CNAP profile link downloads all required settings and allows access to t
     
 1.	Navigate the environments you prefer.
 1.	Exit Appgate SDP by clicking Sign Out or Quit from the Options menu, designated by three vertical dots at the top right of the session.
-    * Click Sign Out. <br/>
+    * Click **Sign Out**. <br/>
         You are signed out of Appgate SDP. The session becomes inactive but remains visible.
-    * Click Quit. <br/>
+    * Click **Quit**. <br/>
         The Appgate SDP session closes and becomes hidden.
 1.	Re-open Appgate SDP at any time by clicking Sign in with Provider, which launches the P1 Login page.
 

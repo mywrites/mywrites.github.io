@@ -77,6 +77,7 @@ To create a user:
 1. **Save** your updates.
 
    The table displays the user you created.
+   
    ![Cloud Account](/img/syn_qs_cloudacct2.png)
 
 1. Click your new user from the **Name** column.

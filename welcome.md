@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Welcome"
+title: "Welcome to Game Warden"
 category: "Cybersecurity"
 ---
 

@@ -3,11 +3,11 @@ layout: default
 title: "Keycloak"
 category: "Identity Access Management"
 ---
-Keycloak Single Sign On (SSO) is the Identity and Access Management (IAM) solution that allows you to access the **REDACTED COMPANY A** application, your products, and other **REDACTED COMPANY A**-hosted solutions more securely and using a single set of login credentials.
+Keycloak Single Sign On (SSO) is the Identity and Access Management (IAM) solution that allows you to access the **REDACTED COMPANY** application, your products, and other **REDACTED COMPANY A**-hosted solutions more securely and using a single set of login credentials.
 
-**REDACTED COMPANY A’s** Keycloak SSO integrates with the **REDACTED PARTNER PLATFORM SSO**. Both function similarly, allowing secure access to the same applications. This article provides insight into the **REDACTED COMPANY A** Keycloak SSO process, hereafter referred to as Keycloak SSO.
+Keycloak SSO integrates with the **REDACTED PARTNER PLATFORM SSO**. Both function similarly, allowing secure access to the same applications. This article provides insight into the **REDACTED COMPANY** Keycloak SSO process, hereafter referred to as Keycloak SSO.
 
-**REDACTED PARTNER PLATFORM SSO**, a Department of Defense (DoD) counterpart, is a DevSecOps platform that delivers applications to the government. **REDACTED PARTNER PLATFORM SSO** also contains DoD-approved tooling for software development. Since **REDACTED COMPANY A** integrates with **REDACTED PARTNER PLATFORM**, our teams have access to this tooling along with several **REDACTED PARTNER PLATFORM** solutions such as Big Bang (link removed) and Iron Bank (link removed). To use Keycloak SSO initially, you must first create a PARTNER PLATFORM account. If you have both sets of credentials (**REDACTED PARTNER PLATFORM** and Keycloak SSO), you can use either going forward since both provide access to the same applications.
+**REDACTED PARTNER PLATFORM SSO**, a Department of Defense (DoD) counterpart, is a DevSecOps platform that delivers applications to the government. **REDACTED PARTNER PLATFORM SSO** also contains DoD-approved tooling for software development. Since we integrate with their platform, our teams have access to this tooling along with several of their solutions such as Big Bang (link removed) and Iron Bank (link removed). To use Keycloak SSO initially, you must first create a **REDACTED PARTNER PLATFORM** account. If you have both sets of credentials, you can use either going forward since both provide access to the same applications.
 
 ## Establish Keycloak SSO
 REDACTED IMAGE AND PROPRIETARY INFORMATION
@@ -24,10 +24,10 @@ To establish Keycloak SSO:
 1. Access the **Keycloak Account** page (link removed).
 1. Click **Sign in**.
 
-    The system returns you to the **REDACTED COMPANY A** page.
+    The system returns you to the **REDACTED COMPANY** page.
 
-1. Click Log in with **REDACTED PARTNER PLATFORM SSO**.
-1. Enter your **REDACTED PARTNER PLATFORM SSO** login credentials and proceed with Multi-factor Authentication (MFA).
+1. Click **Log in with **REDACTED PARTNER PLATFORM SSO**.
+1. Enter your login credentials and proceed with Multi-factor Authentication (MFA).
     The system returns you to the **Keycloak Account** page. The **Sign in**** button now reads Sign out**, an indication that you have Keycloak account access. From the left navigation pane, **Signing in** is selected. This page also displays **Set up Password** (if you have never established a password, else **Update** displays) and **Set up authenticator application**. You must establish each.
 
 ![Keycloak](/img/keycloak2.png)
@@ -50,7 +50,7 @@ The system returns you to the **Keycloak Account** page. As a matter of informat
 Keycloak SSO uses three primary components that work in unison as background processes to confirm user validity:
 
 * Authentication Service (Istio’s Authservice software)
-   * Verifies **REDACTED COMPANY A** users based on their login credentials.
+   * Verifies **REDACTED COMPANY** users based on their login credentials.
    * For additional information, read **Authservice Documentation** (link removed).
    * For additional information, read **Architecture Overview** (link removed).
 * JSON Web Token (JWT)
@@ -68,7 +68,7 @@ Below is a workflow diagram of the Keycloak SSO process:
  
 **NOTE**
 
-The diagram above references a Common Access Card (CAC), External Certification Authority (ECA), and a Federal Personal Identity Verification (PIV) card. These cards provide access to **REDACTED COMPANY A**-hosted secure applications in the Staging (STG) and Production (PRD) environments. 
+The diagram above references a Common Access Card (CAC), External Certification Authority (ECA), and a Federal Personal Identity Verification (PIV) card. These cards provide access to **REDACTED COMPANY**-hosted secure applications in the Staging (STG) and Production (PRD) environments. 
 
 
 
