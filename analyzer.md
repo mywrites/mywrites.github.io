@@ -3,7 +3,8 @@ layout: default
 title: "Quick Start"
 category: "Life Sciences"
 ---
-<img src="/img/analyze1.png" alt="Analyzer" width="600" height="400">
+> **WARNING**:
+>This Medical Device is designed to detect human genetic diseases via an automated molecular >diagnostic system using Polymerase Chain Reaction for DNA amplification and High Resolution >Melting Analysis for DNA detection. This device is intended for **Research Use Only** and is not >to be used for diagnostic procedures.
 
 ## System Components
 
