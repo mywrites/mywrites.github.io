@@ -3,7 +3,7 @@ layout: default
 title: "Quick Start"
 category: "Life Sciences"
 ---
-<img src="/img/analyze1.png" alt="Analyzer" width="200" height="200">
+<img src="/img/analyze1.png" alt="Analyzer" width="400" height="400">
 
 ## System Components
 
@@ -18,7 +18,7 @@ category: "Life Sciences"
 
 # High-level Medical Device Workflow
 
-<img src="/img/analyze2.png" alt="Analyzer" width="200" height="200">
+<img src="/img/analyze2.png" alt="Analyzer" width="400" height="400">
 
 # Three Kit Configurations
 
