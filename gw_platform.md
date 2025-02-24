@@ -3,6 +3,7 @@ layout: default
 title: "Game Warden Platform"
 category: "Cybersecurity"
 ---
+ <link rel="stylesheet" href="styles.css">
 Game Warden is a Department of Defense (DoD)-authorized DevSecOps platform that quickly, securely, and cost-effectively deploys SaaS solutions into government networks – streamlining the software delivery process. Game Warden provides all tooling required to secure, harden, and run your applications.
 
 ## GitLab

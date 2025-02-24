@@ -7,7 +7,7 @@ body {
 
 /* Styling the navigation */
 nav {
-  width: 400px; /* Fixed width for navigation */
+  width: 400px !important; /* Fixed width for navigation */
   background-color: #dae2e2; /* Background color */
   padding: 20px; /* Padding around the content */
   box-sizing: border-box; /* Ensures padding is included in the element’s total width and height */

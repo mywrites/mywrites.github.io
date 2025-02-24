@@ -3,6 +3,7 @@ layout: default
 title: "Harbor Overview"
 category: "Cybersecurity"
 ---
+ <link rel="stylesheet" href="styles.css">
 The Game Warden team uses Harbor as its secure image registry. As an open source and feature-rich registry, Harbor manages the images you push into this environment. Our Continuous Integration/Continuous Deployment (CI/CD) pipelines move your images through the scanning and hardening processes. The Game Warden team uses Anchore Enterprise and Prisma Cloud to both scan/harden images and identify vulnerabilities.
 
 The team also uses ClamAV for malware detection. As your images navigate the scanning and hardening processes, tags are appended to the end of your image names to designate the status of each.
