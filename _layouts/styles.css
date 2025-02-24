@@ -6,7 +6,7 @@ body {
 }
 
 /* Styling the navigation */
-#nav-pane {
+nav {
   width: 400px; /* Fixed width for navigation */
   background-color: #dae2e2; /* Background color */
   padding: 20px; /* Padding around the content */
