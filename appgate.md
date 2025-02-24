@@ -6,7 +6,7 @@ category: "Identity Access Management"
 Appgate Software-Defined Perimeter (SDP) is a Department of Defense (DoD)-approved authentication service. This Zero Trust solution provides secure access to DoD networks and associated data. Managed by the Platform One (P1) Cloud Native Access Point (CNAP) team, Appgate SDP provides a range of network security protections to include:
 
 * Denying implicit trust to a single user, device, or application.
-* Enforcing a verify then trust security approach to network access.
+* Enforcing a *verify then trust* security approach to network access.
 * Promoting Least Privilege, solely providing as-needed access to network resources.
 
 P1 SSO also helps authenticate and authorize DoD network users. While you can browse IL2 without Appgate SDP access, you must – in some cases – use Appgate SDP to enter IL4+ environments. For IL5 access outside the NIPRNet boundary, you must also run compliance scripts.
@@ -18,8 +18,6 @@ The DoD uses **Non-Classified Internet Protocol Router Network (NIPRNet)** to ma
 As customers, it is critical to understand that CNAP allows secure access to Game Warden-hosted solutions at IL4 and IL5. As a reminder, P1 CNAP manages Appgate.
 
 The implementation of Appgate and Palo Alto firewalls provides DoD-approved solutions that meet security controls, as referenced in sections 5.10.1.x of the Cloud Computing Security Requirements Guide (Version 1, Release 4).
-
-For additional information, read Cloud Native Access Point.
 
 ## Installing Appgate SDP
 To install and run Appgate SDP:
@@ -47,12 +45,12 @@ This P1 CNAP profile link downloads all required settings and allows access to t
     ![Appgate](/img/appgate.png)
     
 1.	Navigate the environments you prefer.
-1.	Exit Appgate SDP by clicking Sign Out or Quit from the Options menu, designated by three vertical dots at the top right of the session.
+1.	Exit Appgate SDP by clicking **Sign Out** or **Quit** from the **Options** menu, designated by three vertical dots at the top right of the session.
     * Click **Sign Out**. <br/>
         You are signed out of Appgate SDP. The session becomes inactive but remains visible.
     * Click **Quit**. <br/>
         The Appgate SDP session closes and becomes hidden.
-1. Re-open Appgate SDP at any time by clicking Sign in with Provider, which launches the P1 Login page.
+1. Re-open Appgate SDP at any time by clicking **Sign in with Provider**, which launches the P1 Login page.
 
 Customers who do not access IL4+ via NIPRNet or NIPRNet VPN (such as Air Force Desktop Anywhere), must use Appgate SDP to access these environments. During this access, Appgate SDP must remain open and active.
 
