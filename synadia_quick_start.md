@@ -3,6 +3,8 @@ layout: default
 title: "Quick Start Guide"
 category: "Configuration"
 ---
+**CONTEXT**: I created six user guides for Synadia's distributed systems/communications solution: NATS. Applications, IoT devices, and cloud-based services use the NATS product for secure, fast, and efficient message exchange, even when these entities are spread across different computers or data centers. For example, NATS provides functionality that alerts you when the air pressure in your tires is low. Tracking systems integrated with NATS can provide product order notifications. NATS can ensure your refrigerator temperatures enters energy-saving mode at night. Yes, that's NATS!
+
 The Synadia Cloud user guides, which accompany the Walkthrough [videos](https://docs.synadia.com/cloud/walkthrough), explore the dashboard and provide setup instructions. You can leverage this insight to configure your environment.
 
 ## Prerequisites
