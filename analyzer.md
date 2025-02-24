@@ -3,7 +3,7 @@ layout: default
 title: "Quick Start"
 category: "Life Sciences"
 ---
-<img src="/img/analyze1.png" alt="Analyzer" width="400" height="400">
+<img src="/img/analyze1.png" alt="Analyzer" width="600" height="400">
 
 ## System Components
 
@@ -18,11 +18,11 @@ category: "Life Sciences"
 
 # High-level Medical Device Workflow
 
-<img src="/img/analyze2.png" alt="Analyzer" width="400" height="400">
+<img src="/img/analyze2.png" alt="Analyzer" width="400" height="750">
 
 # Three Kit Configurations
 
-<img src="/img/analyze3.png" alt="Analyzer" width="200" height="200">
+<img src="/img/analyze3.png" alt="Analyzer" width="350" height="350">
 
 ## Quick Start
 
@@ -74,7 +74,7 @@ After the Run completes, you must properly dispose of consumables per your compa
 Avoid direct fluid ingress into any openings on exterior.
 
 
-<img src="/img/analyze6.png" alt="Analyzer" width="200" height="200">
+<img src="/img/analyze6.png" alt="Analyzer" width="600" height="400">
 
 <style>
   table {
