@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Welcome to Game Warden"
+title: "Game Warden"
 category: "Cybersecurity"
 ---
 Thank you again for joining the Game Warden team!

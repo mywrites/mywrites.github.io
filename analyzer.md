@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Medical Device"
+title: "Quick Start"
 category: "Life Sciences"
 ---
 ![Analyzer](/img/analyze1.png)
@@ -75,6 +75,18 @@ Avoid direct fluid ingress into any openings on exterior.
 
 
 ![Analyze](/img/analyze6.png)
+
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+</style>
 
 
 
