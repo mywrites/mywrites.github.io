@@ -31,8 +31,6 @@ To establish Keycloak SSO:
 1. Enter your login credentials and proceed with Multi-factor Authentication (MFA).
     The system returns you to the **Keycloak Account** page. The **Sign in** button now reads **Sign out**, an indication that you have Keycloak account access. From the left navigation pane, **Signing in** is selected. This page also displays **Set up Password** (if you have never established a password, else **Update** displays) and **Set up authenticator application**. You must establish each.
 
-![Keycloak](/img/keycloak2.png)
-
 1. Click **Set up Password**. 
 
    The **Logging in to Account Console** page opens.
@@ -72,7 +70,7 @@ Below is a workflow diagram of the Keycloak SSO process:
  
 **NOTE:**
 
-The diagram above references a Common Access Card (CAC), External Certification Authority (ECA), and a Federal Personal Identity Verification (PIV) card. These cards provide access to **Game Warden**-hosted secure applications in the Staging (STG) and Production (PRD) environments. 
+The diagram above references a Common Access Card (CAC), External Certification Authority (ECA), and a Federal Personal Identity Verification (PIV) card. These cards provide access to Game Warden-hosted secure applications in the Staging (STG) and Production (PRD) environments. 
 
 **CONTENT REMOVED**
 
