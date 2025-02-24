@@ -1,3 +1,6 @@
 title: Writing Samples
 description: Perform research, navigate and test software, meet with SMEs as needed.
 theme: jekyll-theme-cayman
+markdown: kramdown
+highlighter: rouge
+
