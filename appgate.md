@@ -26,13 +26,9 @@ To install and run Appgate SDP:
 1. Configure Government Access Card with P1 SSO Account.
 1. Download Appgate SDP for Windows, macOS, or Linux PCs at **Appgate SDP Client Download**.
 1. Install Appgate SDP on your PC, following the on-screen prompts.
-   During the installation process, select **Use Profile Link** in the **Create Profile** window then copy the following link into the Profile Link field. You can hover over the end of this profile text below to access the Copy to clipboard function, enabling you to click to copy this text from this location and paste into the **Profile Link** field during Appgate SDP installation.
+   During the installation process, select **Use Profile Link** in the **Create Profile** window then copy the now visible link into the **Profile Link** field. 
 
-```text
-appgate://connect.cnap.dso.mil/eyJwcm9maWxlTmFtZSI6IlBsYXRmb3JtT25lIC0gU1NPIiwic3BhIjp7Im1vZGUiOiJVRFAtVENQIiwibmFtZSI6InAxX3NwYSIsImtleSI6IjQ4ODUyMjc1OTk3YWE0YTkzNTdjYzA2OWYxYjNkNTI1ZGI3NWI2NTU1YjgzNGY3Njk3MDI0MzdlMGViNjg1NmMifSwiY2FGaW5nZXJwcmludCI6IjMxZTk4OTI2NGVmNDc0ZWU4ZTg3OGVhM2ZmM2M1NGQ3YzlhOTNkOWM4N2VlZmMyODFlMTM4NGJkZTIyYTZlYTEiLCJpZGVudGl0eVByb3ZpZGVyTmFtZSI6IlNTTyAtIFBsYXRmb3JtIDEifQ==
-```
-
-This P1 CNAP profile link downloads all required settings and allows access to the P1 **Login** page.
+   This P1 CNAP profile link downloads all required settings and allows access to the P1 **Login** page.
 
 1.	Click **Submit** to finalize the new profile addition.
 1.	Click **Connect to Appgate SDP** in the Profile Created window. <br/>
