@@ -8,7 +8,7 @@
 <body>
   <div style="display: flex;">
     <!-- Left Sidebar -->
-    <nav style="width: 250px; background-color: #e1ece1; padding: 20px;">
+    <nav style="width: 400px; background-color: #e1ece1; padding: 20px;">
       <h1>Welcome to MyWrites!</h1>
       <p>Hire a phenomenal writer with proven 100% on-time delivery.</p>
 
