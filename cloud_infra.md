@@ -28,7 +28,7 @@ The primary purpose of the infrastructure is to:
 ## Terms 
 While a *Glossary of Terms*, when included in technical documentation, is commonly located at the end of a manual, the placement of significant terms in this guide has been intentionally positioned near the beginning of this document – as to ensure you understand specific terminology such that you can comprehend the intricacies of the product framework as you navigate this document.
 
- **Term**                   | **Description**                                                     |
+| **Term**                   | **Description**                                                     |
 | --------------------------|---------------------------------------------------------------------|
 | Blade Server              | Unlike the rack-mounted server, the blade server is housed in a chassis. The blade server is smaller and requires less energy. As such, this server needs less space and reduced cooling/air-conditioning. |
 | Chassis                   | Container-like device or enclosure that houses blade servers. Commonly, eight servers can fit into one chassis; in addition, 20 chassis devices can be routed into a single Fabric Interconnect (which handles connectivity to data center networks and storage components). The chassis devices, therefore, collectively can house up to 160 blade servers.|
