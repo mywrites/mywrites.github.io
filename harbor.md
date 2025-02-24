@@ -9,9 +9,9 @@ The team also uses ClamAV for malware detection. As your images navigate the sca
 
 You might use varying methods to push images into Harbor. This article focuses on pushing images manually and, more specifically, from a terminal using Docker commands.
 
-Alternatively, if you are using an automated pipeline process, please contact our Customer Operations team. They can provide *robot credentials* to facilitate this process. Time-defined and commonly distributed for short-term use, robot credentials prevent Harbor session expiration. If you are not using an automated pipeline process, your Harbor session can expire. For example, if you access Harbor in the morning then attempt to push an image into this environment in the afternoon, a Harbor session *timeout* might occur. This scenario will *trigger a failure to authenticate* message in your terminal. If your Docker command login credentials (into Harbor) *fail to authenticate*, simply re-enter these credentials – accessing Harbor from a web browser.
+Alternatively, if you are using an automated pipeline process, please contact our Customer Operations team. They can provide *robot credentials* to facilitate this process. Time-defined and commonly distributed for short-term use, robot credentials prevent Harbor session expiration. If you are not using an automated pipeline process, your Harbor session can expire. For example, if you access Harbor in the morning then attempt to push an image into this environment in the afternoon, a Harbor session *timeout* might occur. This scenario will trigger a *failure to authenticate* message in your terminal. If your Docker command login credentials (into Harbor) *fail to authenticate*, simply re-enter these credentials – accessing Harbor from a web browser.
 
-**NOTE**
+**NOTE:**
 When you use unmodified Iron Bank images in your deployment, the Game Warden team will pull these images directly into our infrastructure (as opposed to you pushing them).
 
 # Prerequisites
@@ -31,7 +31,7 @@ When you use unmodified Iron Bank images in your deployment, the Game Warden tea
 
    ![Harbor](/img/harbor2.png)
 
-**NOTE** 
+**NOTE:** 
 This page (middle right) displays **PUSH COMMAND**. Select this option to open a modal and view the required terminal syntax for Docker push commands. The information in this modal serves as a mere guide to assist you with syntax. You can use the **Tag an image for this project** and **Push an image to this project** syntax, copying each line from this modal for ease of use.
 
 ## Harbor Credentials
@@ -43,7 +43,7 @@ This page (middle right) displays **PUSH COMMAND**. Select this option to open a
 
 1. Retrieve your **CLI secret** by clicking the **Copy** icon.
 
-   A banner opens at the top of the **User Profile** modal and contains the text, copy success.
+   A banner opens at the top of the **User Profile** modal and contains the text, **copy success**.
 1. Record the text in the **Username** field, as you will need this information in a subsequent step.
 
    The copied **CLI secret** remains in your clipboard.

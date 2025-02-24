@@ -5,7 +5,7 @@ category: "Cybersecurity"
 ---
 You must satisfy general requirements referenced in the table below. Ensure you comply with these specifications prior to contacting the Game Warden team.
 
-| **Requirements**                            | **Detail**                                         |
+| **Requirements**                            | **Details**                                        |
 | ---------------------------------------------| --------------------------------------------------|
 | **You must** [Create a P1 SSO account](https://helpcenter.gamewarden.io/integrations-access/goverment_access_cards/p1_sso/).            | Platform One (P1), a Department of Defense (DoD) analogue or counterpart to Game Warden, is a DevSecOps platform that delivers applications to the government. P1 contains DoD-approved tooling for software development. Game Warden integrates with P1 and, in so doing, has access to the P1 DoD-approved tooling for software development along with solutions available via P1, such as Big Bang and Iron Bank. | 
 | **You must use Appgate SDP, conditionally**.     | Customers who do not access IL4+ via Non-classified Internet Protocol Router Network (NIPRNet) or NIPRNet VPN (such as Air Force Desktop Anywhere) must use Appgate SDP to access these environments. During this access, Appgate SDP must remain open and active. Provisioning a P1 SSO account is a mandatory prerequisite for Appgate Software-Defined Perimeter (SDP) use, as there is a dependency between Appgate SDP and P1 SSO. Appgate SDP is a DoD-approved authentication service. |

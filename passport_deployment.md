@@ -15,7 +15,7 @@ A Deployment Passport consists of the following artifacts:
 * **Authorization Boundary Diagram**
   * A visual presentation of your software components and data connections. When creating your diagram, you must display all data movement both within your application and outside this boundary. This includes specifications that describe which direction the data moves, such as ingress, egress, or bidirectional. You must denote the ports and protocols on all connections. You also must display all application containers and all external or managed services. Aligning your diagram with required specifications ensures compliance with ATO requirements. 
 * **System Security Plan**
-  * Form that provides content that proves you meet ATO security requirements. You create the System Security Plan (SSP) from a form within the Game Warden app (instructions here), and the Game Warden Security team reviews this form. The SSP includes any required external approvals and proof of an active government contract for your company.
+  * Form that provides content that proves you meet ATO security requirements. You create the System Security Plan (SSP) from a form within the Game Warden app, and the Game Warden Security team reviews this form. The SSP includes any required external approvals and proof of an active government contract for your company.
 * **Security Findings Summary**
   * The Security Findings Summary includes hyperlinks to the Scan Results exported from Scan Lab.
 * **ISSM Critical/High/Stop Security Findings Memo (As Applicable)**
