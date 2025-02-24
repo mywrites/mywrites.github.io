@@ -15,3 +15,15 @@ You must satisfy general requirements referenced in the table below. Ensure you 
 
 # Guidance
 The Game Warden team will work with you to ensure your product aligns with these general requirements and, going forward, provide any necessary insight to help you. Contact us at [Growth](mailto:growth@secondfront.com) for additional information.
+
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+</style>
