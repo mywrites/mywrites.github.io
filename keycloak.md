@@ -3,18 +3,20 @@ layout: default
 title: "Keycloak"
 category: "Identity Access Management"
 ---
-Keycloak Single Sign On (SSO) is the Identity and Access Management (IAM) solution that allows you to access the **REDACTED COMPANY** application, your products, and other **REDACTED COMPANY**-hosted solutions more securely and using a single set of login credentials.
+Keycloak Single Sign On (SSO) is the Identity and Access Management (IAM) solution that allows you to access the Game Warden web app, your products, and other Game Warden-hosted solutions more securely and using a single set of login credentials.
 
-Keycloak SSO integrates with the **REDACTED PARTNER PLATFORM SSO**. Both function similarly, allowing secure access to the same applications. This article provides insight into the **REDACTED COMPANY** Keycloak SSO process, hereafter referred to as Keycloak SSO.
+Game Warden Keycloak SSO integrates with the Platform One (P1) SSO. Both function similarly, allowing secure access to the same applications. This article provides insight into the Game Warden Keycloak SSO process, hereafter referred to as Keycloak SSO.
 
-**REDACTED PARTNER PLATFORM SSO**, a Department of Defense (DoD) counterpart, is a DevSecOps platform that delivers applications to the government. **REDACTED PARTNER PLATFORM SSO** also contains DoD-approved tooling for software development. Since we integrate with their platform, our teams have access to this tooling along with several of their solutions such as Big Bang (link removed) and Iron Bank (link removed). To use Keycloak SSO initially, you must first create a **REDACTED PARTNER PLATFORM** account. If you have both sets of credentials, you can use either going forward since both provide access to the same applications.
+P1, a Department of Defense (DoD) counterpart to Game Warden, is a DevSecOps platform that delivers applications to the government. P1 also contains DoD-approved tooling for software development. Since Game Warden integrates with P1, our teams have access to this tooling along with several P1 solutions such as Big Bang (link removed) and Iron Bank (link removed). To use Keycloak SSO initially, you must first [Create a P1 SSO Account](https://login.dso.mil/). If you have both sets of credentials (P1 and Keycloak SSO), you can use either going forward since both provide access to the same applications.
+
+Game Warden provides Keycloak SSO-protected customer environments.
 
 ## Establish Keycloak SSO
 
 Prerequisites for Keycloak SSO access:
 
 * Download a Multi-factor Authentication (MFA) application.
-* Create a **REDACTED PARTNER PLATFORM SSO** account.
+* [Create a P1 SSO Account](https://login.dso.mil/).
 
 To establish Keycloak SSO:
 
@@ -23,9 +25,9 @@ To establish Keycloak SSO:
 1. Access the **Keycloak Account** page (link removed).
 1. Click **Sign in**.
 
-    The system returns you to the **REDACTED COMPANY** page.
+    The system returns you to the **Game Warden** page.
 
-1. Click **Log in with REDACTED PARTNER PLATFORM SSO**.
+1. Click **Log in w/P1 SSO**.
 1. Enter your login credentials and proceed with Multi-factor Authentication (MFA).
     The system returns you to the **Keycloak Account** page. The **Sign in** button now reads **Sign out**, an indication that you have Keycloak account access. From the left navigation pane, **Signing in** is selected. This page also displays **Set up Password** (if you have never established a password, else **Update** displays) and **Set up authenticator application**. You must establish each.
 
@@ -43,15 +45,13 @@ To establish Keycloak SSO:
    The **Logging in to Account Console** page opens.
 1. Scan the QR Code, enter the 6-digit code, provide a **Device Name** (optional) then click **Submit**.
 
-    REDACTED IMAGE
-
-The system returns you to the **Keycloak Account** page. As a matter of information, Keycloak SSO uses your **REDACTED PARTNER PLATFORM SSO** username. This reference is visible from the **Personal Information** option in the left navigation pane. You have successfully established your Keycloak login credentials.
+   The system returns you to the **Keycloak Account** page. As a matter of information, Keycloak SSO uses your **P1** username. This reference is visible from the **Personal Information** option in the left navigation pane. You have successfully established your Keycloak login credentials.
 
 ## Keycloak SSO Components
 Keycloak SSO uses three primary components that work in unison as background processes to confirm user validity:
 
 * Authentication Service (Istio’s Authservice software)
-   * Verifies **REDACTED COMPANY** users based on their login credentials.
+   * Verifies Game Warden users based on their login credentials.
    * For additional information, read **Authservice Documentation** (link removed).
    * For additional information, read **Architecture Overview** (link removed).
 * JSON Web Token (JWT)
@@ -72,8 +72,8 @@ Below is a workflow diagram of the Keycloak SSO process:
  
 **NOTE:**
 
-The diagram above references a Common Access Card (CAC), External Certification Authority (ECA), and a Federal Personal Identity Verification (PIV) card. These cards provide access to **REDACTED COMPANY**-hosted secure applications in the Staging (STG) and Production (PRD) environments. 
+The diagram above references a Common Access Card (CAC), External Certification Authority (ECA), and a Federal Personal Identity Verification (PIV) card. These cards provide access to **Game Warden**-hosted secure applications in the Staging (STG) and Production (PRD) environments. 
 
-
+**CONTENT REMOVED**
 
 
