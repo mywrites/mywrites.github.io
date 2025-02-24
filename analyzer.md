@@ -3,6 +3,8 @@ layout: default
 title: "Quick Start"
 category: "Life Sciences"
 ---
+ <link rel="stylesheet" href="styles.css">
+ 
 ![Analyze](/img/analyze1.png)
 
 ## System Components
