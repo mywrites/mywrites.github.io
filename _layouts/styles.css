@@ -1,7 +1,24 @@
+/* This ensures the font is Arial, and if not available, it falls back to any sans-serif font */
 body {
-    font-family: 'Arial', sans-serif;  /* or 'Calibri', sans-serif */
-  }
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
-  nav {
-    width: 400px;
-  }
+/* Styling the navigation */
+nav {
+  width: 400px; /* Fixed width for navigation */
+  background-color: #dae2e2; /* Background color */
+  padding: 20px; /* Padding around the content */
+  box-sizing: border-box; /* Ensures padding is included in the element’s total width and height */
+  position: fixed; /* Keeps navigation fixed in position */
+  top: 0; /* Keeps it at the top of the page */
+  left: 0; /* Aligns it to the left side */
+  height: 100%; /* Full height */
+}
+
+/* Additional styles for the content */
+.content {
+  margin-left: 420px; /* To make space for the fixed navigation */
+  padding: 20px;
+}

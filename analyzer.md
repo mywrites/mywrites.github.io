@@ -3,8 +3,7 @@ layout: default
 title: "Quick Start"
 category: "Life Sciences"
 ---
-![Analyzer](/img/analyze1.png)
-<img src="/img/analyze1.png" alt="Analyzer" width="300" height="200">
+<img src="/img/analyze1.png" alt="Analyzer" width="100" height="100">
 
 ## System Components
 
