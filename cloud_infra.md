@@ -9,14 +9,14 @@ To provide its clients with complete access to their cloud resources, the produc
 
 From virtual servers to storage devices and support tickets to pricing tools, the product provides a range of information and services to keep clients abreast of the activity in their cloud environment. With three cloud computing service models from which to choose (public cloud, private cloud, and hybrid cloud), clients can select the cloud offering that is most aligned with their business objectives. 
 
-PROPRIETARY CONTENT REMOVED
+**PROPRIETARY CONTENT REMOVED**
 
 ## Overview
 This document provides insight into the underlying product framework. Specifically, this document describes the internal components that comprise this new cloud environment, while using text and detailed images to explain (and depict) how these entities function.
 
 This document audience includes system administrators and engineers who need to understand the cloud infrastructure.
 
-PROPRIETARY CONTENT REMOVED
+**PROPRIETARY CONTENT REMOVED**
 
 ## Infrastructure 
 The primary purpose of the infrastructure is to:
@@ -85,19 +85,19 @@ The hypervisor components are divided into three sections and connected to distr
 1. Compute
 1. Edge
 
-PROPRIETARY CONTENT REMOVED (ESXi Host Layout and Connection)
+**PROPRIETARY CONTENT REMOVED**
 
 A distributed switch is a device that automates and centralizes the management of virtual machine networking in a vSphere environment; in addition, it can centralize switching for an entire data center. When adding new hosts, a distributed switch – commonly referred to as the vSphere Distributed Switch or VDS – standardizes network configuration, which makes it easier and faster to add new servers.
 
 Multiple distributed switches are in use and divided by function, minimizing issues resulting in configuration change while also assisting with management and troubleshooting.
 
-PROPRIETARY CONTENT REMOVED
+**PROPRIETARY CONTENT REMOVED**
 
 VMware vSphere provides ways of adding resources to an environment. Combining hosts is permissible, if the host’s chipset is associated with the same vendor (i.e. all the hosts in the cluster are Intel CPUs or all the host in a cluster are AMD CPUs). This state is known as Enhanced vMotion Compatibility (EVC) mode.
 
 The cloud infrastructure does not support combining (or mixing) AMD and Intel CPUs within the same cluster. The infrastructure does, however, allow adding different CPU types by clusters – with the limitation that VMs within the different CPU clusters would have to be powered off (and storage shared between clusters to move to the different vendor CPU clusters).
 
-PROPRIETARY CONTENT REMOVED (Distributed Switches/CPU Clusters)
+**PROPRIETARY CONTENT REMOVED**
 
 ## Infrastructure Products
 The infrastructure design uses VMware and other products to include:
