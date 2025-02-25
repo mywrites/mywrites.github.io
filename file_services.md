@@ -45,7 +45,7 @@ Exceptions requests cannot be submitted by telephone or word-of-mouth, as these 
 
 SAG meets on alternate Tuesdays. For unique situations (where approval is required before the next scheduled meeting), group members may initiate a special meeting.
 
-**NOTE**:
+**NOTE**:<br/>
 If the request meets the compliance standards referenced in this document, the modification may be authorized by SAG. The approximate timeframe from the point the request is initiated to the actual approval/disapproval is 10 business days (for most requests) or as many as 30 days for more complex requests. If the request is rejected, SAG will provide an explanation which will include the restriction (operational/corporate/local/state/federal) that prevents request approval.
 
 ## Forms

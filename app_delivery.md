@@ -26,7 +26,6 @@ The following terms are specific to the *Application Delivery Method* policy:
 
 **Redacted** deploys hundreds of third-party and vendor-supplied health care software systems. For supportability, it is the company policy to require third-party, vendor-supplied software systems to adhere to a common set of industry standards that are tested and proven to function properly within the Citrix environment. For a third-party software vendor to be fully supported while operating in the Citrix environment, the third-party vendor must, first, meet these policies and continue to adhere to them. Failure to do so can result in the **Redacted** terminating vendor-application support for Citrix published resources that do not meet these minimum requirements.
 
-
 ## Procedures
 The procedures delineated below must be followed to comply with the Citrix XenApp policy for data centers.
 1. IT must provide a supported, current, and stable Windows XenApp server that meets the hardware and software requirements from the application vendor.
@@ -51,7 +50,8 @@ Exceptions requests cannot be submitted by telephone or word-of-mouth, as these 
 
 SAG meets on alternate Tuesdays. For unique situations (where approval is required before the next scheduled meeting), group members may initiate a special meeting. 
 
-**NOTE**:
+
+**NOTE**:<br/>
 If the requested change meets the compliance standards referenced in this document, the modification may be authorized by SAG and implemented in the **Redacted** Citrix environment. The approximate timeframe from the point the request is initiated to the actual approval/disapproval is 10 business days (for most requests) or as many as 30 days for more complex requests. If the request is rejected, SAG will provide an explanation which will include the restriction (operational/corporate/local/state/federal) that prevents request approval.
 
 ## Forms
