@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Passport Deployment"
+title: "Deployment Passport"
 category: "Cybersecurity"
 ---
 
