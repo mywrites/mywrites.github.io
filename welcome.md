@@ -4,7 +4,7 @@ title: "Meet Game Warden"
 category: "Cybersecurity"
 ---
 
-**CONTEXT**: I built the Help Center at Second Front Systems, and the Cybersecurity and IAM navigation sections include a few of the articles I created here. The Meet Game Warden content below not only introduces the new Help Center but also provides high-level insight into this product. 
+**CONTEXT**: I built the Help Center at Second Front Systems, and the Cybersecurity and IAM navigation sections include a few of the articles I created here. The Meet Game Warden content below not only introduces the new Help Center but also provides high-level insight into the product. 
 
 Thank you again for joining the Game Warden team!
 
