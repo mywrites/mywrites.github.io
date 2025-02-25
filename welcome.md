@@ -4,7 +4,7 @@ title: "Meet Game Warden"
 category: "Cybersecurity"
 ---
 
-**CONTEXT**: I built the Help Center at Second Front Systems, Inc., Inc. This article provides high-level insight into the product, enabling you to gain a better understanding of other company-related writing samples. The Cybersecurity and IAM navigation sections, for example, include a few of the articles I created at Second Front. The content below introduces the Help Center launch.
+**CONTEXT**: I built the Help Center at Second Front Systems, Inc. This article provides high-level insight into the product, enabling you to gain a better understanding of other company-related writing samples. The Cybersecurity and IAM navigation sections, for example, include a few of the articles I created at Second Front. The content below introduces the Help Center launch.
 
 Thank you again for joining the Game Warden team!
 
