@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Game Warden"
+title: "Meet Game Warden"
 category: "Cybersecurity"
 ---
 
