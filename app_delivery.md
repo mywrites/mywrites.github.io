@@ -13,7 +13,7 @@ The following terms are specific to the *Application Delivery Method* policy:
 
 | **Term**                            | **Description**                                        |
 | ------------------------------------| -------------------------------------------------------|
-| Citrix XenApp                       | Citrix, located on the desktop, is the mechanism servers use to deliver applications – using the product: XenApp. | The XenApp software backend, not visible to users, allows Citrix Administrators to access the application to troubleshoot issues. The Citrix XenApp/XenDesktop technologies are the primary methods of delivering applications to user PCs and workstations.
+| Citrix XenApp                       | Citrix, located on the desktop, is the mechanism servers use to deliver applications – using the product: XenApp. This software backend, not visible to users, allows Citrix Administrators to access the application to troubleshoot issues. The Citrix XenApp/XenDesktop technologies are the primary methods of delivering applications to user PCs and workstations. |
 | Information Security Officer (ISO)  | Team member charged with developing, implementing, enforcing, and maintaining IT security standards for all data systems, thus ensuring there are no breaches and all information and patient data remain safeguarded. The ISO has a range of other responsibilities, such as performing audits, investigating security incidents, evaluating IT risks, and determining IT security policy and strategy. |
 | Recovery Point Objective (RPO)     | Timeframe (maximum) within which data might be lost during an interruption of IT services. |
 | Recovery Time Objective (RTO)      | Timeframe within which an interruption must be resolved before business cohesion is affected. |
@@ -68,4 +68,16 @@ The Director of TSO and the Manager of the Systems Administration Group will ver
 All systems will be scanned at regular intervals to determine compliance of patch management. Any item found noncompliant will require immediate remediation. 
 
 Users in violation of this policy may lose their privileges to log on to the network (as explained in the *Corporate Compliance* guidelines and the *Employee Handbook*); in addition, failure to comply with this policy may result in disciplinary actions (to include job termination).
+
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+</style>
 
