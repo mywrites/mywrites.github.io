@@ -3,11 +3,11 @@ layout: default
 title: "Quality Management System"
 category: "Regulatory Compliance"
 ---
-**REDACTED COMPANY** specializes in research and development, and is committed to extending its core technologies to include digital imaging solutions. The company is setting a new standard in the molecular diagnostic technology space, representing a new breakthrough business area. The core group is comprised of an experienced, multidisciplinary team of scientists and business professionals with an in-depth understanding of the clinical diagnostics industry.
+**Redacted** specializes in research and development, and is committed to extending its core technologies to include digital imaging solutions. The company is setting a new standard in the molecular diagnostic technology space, representing a new breakthrough business area. The core group is comprised of an experienced, multidisciplinary team of scientists and business professionals with an in-depth understanding of the clinical diagnostics industry.
 
-The team is developing next-generation solutions for clinical diagnostics. Using Polymerase Chain Reaction (PCR) for DNA amplification and High Resolution Melting Analysis (HRMA) for DNA detection, **REDACTED COMPANY** – an in vitro diagnostics (IVD) manufacturer – is implementing technology designed to detect human genetic diseases via an automated molecular diagnostic system.
+The team is developing next-generation solutions for clinical diagnostics. Using Polymerase Chain Reaction (PCR) for DNA amplification and High Resolution Melting Analysis (HRMA) for DNA detection, **Redacted** – an in vitro diagnostics (IVD) manufacturer – is implementing technology designed to detect human genetic diseases via an automated molecular diagnostic system.
 
-Each year (and for the past decade), investments in research and development have helped rank **REDACTED COMPANY** as one of the top three companies to register patents in the U.S. With research and development operations in the U.S., Europe, Australia, Japan, and throughout Asia, **REDACTED COMPANY** invests in innovative technologies customized to meet consumer and business needs. The company is also environmentally conscious and at each stage of the lifecycle is committed to energy and resource conservation, pollution prevention, the elimination of hazardous substances, and collecting and recycling of products.
+Each year (and for the past decade), investments in research and development have helped rank **Redacted** as one of the top three companies to register patents in the U.S. With research and development operations in the U.S., Europe, Australia, Japan, and throughout Asia, **Redacted** invests in innovative technologies customized to meet consumer and business needs. The company is also environmentally conscious and at each stage of the lifecycle is committed to energy and resource conservation, pollution prevention, the elimination of hazardous substances, and collecting and recycling of products.
 
 ## QMS Purpose
 This Quality Management System (QMS) manual defines policies and procedures that are implemented to ensure all products and services meet customer and regulatory requirements specific to medical devices and related services. This manual details the company approach to quality and demonstrates conformance to ANSI/AAMI/ISO 13485:2003/(R)2009, Part 820 – Quality System Regulation and Canada Medical Device Regulation SOR 98-282. ISO 13485 indicates QMS requirements for medical device design, production, and maintenance, ensuring products are safe and effective. The document purpose, therefore, is to define the QMS, communicate its Quality Policy, and demonstrate regulatory compliance to the aforementioned standards.
@@ -46,7 +46,7 @@ Management defines, reviews, and communicates quality objectives; in addition, s
 
 The chart and table below provide the high-level leadership roles that are directly related to the responsibility, authority and communication of the QMS.
 
-**REDACTED CONTENT**
+**Redacted**
 
 Senior Management ensures that communication within the organization is timely and effective by conducting Management Reviews, periodic employee meetings, and regularly scheduled staff meetings along with posted bulletins and the distribution of a company-sponsored newsletter. Senior Management provides internal communication to ensure that the Quality Policy is effectively echoed throughout the organization. This communication extends itself to the proper design and production of the medical device. Senior Management review input includes customer feedback (via surveys, for example), audits, process improvement recommendations, and action items from previous Senior Management review meetings.
 

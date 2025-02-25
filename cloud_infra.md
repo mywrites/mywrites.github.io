@@ -3,20 +3,20 @@ layout: default
 title: "Cloud Infrastructure"
 category: "Cloud"
 ---
-**REDACTED COMPANY** is an Amazon Web Services (AWS) partner and leading cloud solutions company, providing managed hosting along with a range of IT services and infrastructure support for businesses in the U.S. and abroad. 
+**Redacted** is an Amazon Web Services (AWS) partner and leading cloud solutions company, providing managed hosting along with a range of IT services and infrastructure support for businesses in the U.S. and abroad. 
 
 To provide its clients with complete access to their cloud resources, the product allows clients to access their cloud platform assets, perform routine tasks, monitor services, view reports, and make payments – all independent of customer representatives. 
 
 From virtual servers to storage devices and support tickets to pricing tools, the product provides a range of information and services to keep clients abreast of the activity in their cloud environment. With three cloud computing service models from which to choose (public cloud, private cloud, and hybrid cloud), clients can select the cloud offering that is most aligned with their business objectives. 
 
-**REDACTED CONTENT**
+**Redacted**
 
 ## Overview
 This document provides insight into the underlying product framework. Specifically, this document describes the internal components that comprise this new cloud environment, while using text and detailed images to explain (and depict) how these entities function.
 
 This document audience includes system administrators and engineers who need to understand the cloud infrastructure.
 
-**REDACTED CONTENT**
+**Redacted**
 
 ## Infrastructure 
 The primary purpose of the infrastructure is to:
@@ -36,7 +36,7 @@ While a *Glossary of Terms*, when included in technical documentation, is common
 | Distributed Switch        | Device that automates and centralizes the management of virtual machine networking in a vSphere environment; in addition, it can centralize switching for an entire data center. When adding new hosts, the distributed switch – commonly referred to as the vSphere Distributed Switch or VDS – standardizes network configuration, which makes it easier and faster to add new servers to our cloud environment. |
 | Edge Cluster              | The purpose of the Edge Cluster is to provide the transit path from the VXLAN (virtual networks) to the physical outside or, more precisely, host Edge Service Gateways that provide the connectivity between the physical world (VLANs) and the virtual world (VXLAN logical switches). The Edge Cluster consists of two ESXi hosts and are connected to five distributed switches:  ESXi Host Switch (for host management), ESXi Host Vmotion, Replication, VTEP, EDGE   |
 | Enhanced vMotion Compatibility (EVC) Mode | A state that exists when all host computers in a cluster, for example, use computer chips from the same manufacturer; all chips may be AMD, for instance, or all chips may be Intel. | 
-| ESXi                      | Name (or type) of the VMware hypervisor used in the **REDACTED COMPANY** cloud environment. The ESXi hypervisor is the layer that separates the host machine from the virtual computer (or guest machine). |
+| ESXi                      | Name (or type) of the VMware hypervisor used in the **Redacted** cloud environment. The ESXi hypervisor is the layer that separates the host machine from the virtual computer (or guest machine). |
 | Fabric Interconnect        | Entity that handles (or manages) the connectivity to the data center networks. The chassis, which houses blade servers, connects to the Fabric Interconnect via I/O modules. The Fabric Interconnect – in turn – connects to the data center networks and storage components. Fabric Interconnects are commonly used in pairs (Interconnect Fabric A and Interconnect Fabric B, for example). |
 | Fiber Channel (FC) Connectivity | Like Ethernet connectivity, fiber channels are used to transmit data quickly, simply, and affordably – commonly connecting data storage devices to servers. This network technology is scalable and backward compatible and, as such, you can add different switches for more capacity; the fiber channels will adjust to the connected device(s). |
 | Fiber Channel Switches | A network switch (aligned with the fiber channel protocol) used to transmit data for storage. |
@@ -72,7 +72,7 @@ The physical infrastructure consists of the following hardware at two sites:
 
 The environment currently is connected at 10G Ethernet with separate fiber channel (FC) switches for SAN storage and FC connectivity, as depicted in the image below.
 
-**REDACTED CONTENT**
+**Redacted**
 
 ## Software Components
 ### VMware vSphere Hypervisor
@@ -85,19 +85,19 @@ The hypervisor components are divided into three sections and connected to distr
 1. Compute
 1. Edge
 
-**REDACTED CONTENT**
+**Redacted**
 
 A distributed switch is a device that automates and centralizes the management of virtual machine networking in a vSphere environment; in addition, it can centralize switching for an entire data center. When adding new hosts, a distributed switch – commonly referred to as the vSphere Distributed Switch or VDS – standardizes network configuration, which makes it easier and faster to add new servers.
 
 Multiple distributed switches are in use and divided by function, minimizing issues resulting in configuration change while also assisting with management and troubleshooting.
 
-**REDACTED CONTENT**
+**Redacted**
 
 VMware vSphere provides ways of adding resources to an environment. Combining hosts is permissible, if the host’s chipset is associated with the same vendor (i.e. all the hosts in the cluster are Intel CPUs or all the host in a cluster are AMD CPUs). This state is known as Enhanced vMotion Compatibility (EVC) mode.
 
 The cloud infrastructure does not support combining (or mixing) AMD and Intel CPUs within the same cluster. The infrastructure does, however, allow adding different CPU types by clusters – with the limitation that VMs within the different CPU clusters would have to be powered off (and storage shared between clusters to move to the different vendor CPU clusters).
 
-**REDACTED CONTENT**
+**Redacted**
 
 ## Infrastructure Products
 The infrastructure design uses VMware and other products to include:
@@ -111,7 +111,7 @@ The infrastructure design uses VMware and other products to include:
 * Veeam Backup and Replication
 * Zerto Replication
 
-**REDACTED CONTENT**
+**Redacted**
 
 <style>
   table {
