@@ -101,9 +101,9 @@ To create a user:
 **NOTE**: <br/>
 **For new users**: Step 1 in the **Get Connected** window referenced below requires that you download a **Credentials** file. Save this file in your **nats-cli** folder, created as a prerequisite. If you did not create the **nats-cli** folder, save the **Credentials** file in the same folder as your **nats-cli**. You might also prefer to use environment variables.
 
-**For new Windows/PowerShell users**: Step 2 in the **Get Connected** window requires that you copy a command statement. We recommend that you paste this command into Notepad++ (or similar editor), remove the backslash "\" separators, and use the **Backspace** key to ensure this statement appears on one continuous line. Equally as important, ".\" precedes this command (and others that you enter in your terminal). **An example appears further below**.
+**For new Windows/PowerShell users**: Step 2 in the **Get Connected** window requires that you copy a command statement. We recommend that you paste this command into Notepad++ (or similar editor), remove the backslash "\\" separators, and use the **Backspace** key to ensure this statement appears on one continuous line. Equally as important, ".\" precedes this command (and others that you enter in your terminal). **An example appears further below**.
 
-**For new Linux users**: In general, use a forward slash "/" as opposed to a backslash "\" when executing commands.
+**For new Linux users**: In general, use a forward slash "/" as opposed to a backslash "\\" when executing commands.
 
 To establish a connection:
 
@@ -121,11 +121,11 @@ To establish a connection:
 
 1. **Step 2: Create NATS context**
 
-    The context contains:
+    Generically, the context contains a System, Account, and User – appearing as:
 
-    **SYSTEM-ACCOUNT NAME-USER**
+    **System-Account-User**
 
-    In our example, the context appears as **NGS-Cloud_Acct-cloud**; **NGS** is our System, **Cloud-Acct** is our Account Name, and **cloud** is our User.
+    In our example, the context appears as **NGS-Cloud_Acct-cloud**; **NGS** is our System, **Cloud-Acct** is our Account, and **cloud** is our User.
 
 1. Copy the code then paste into your terminal.
 
