@@ -23,7 +23,6 @@ nav {
   padding: 20px;
 }
 
-sidebar {
-  width: 400px;  /* or whatever width matches your index page */
-  /* Adjust the width if needed */
+.site .sidebar {
+  width: 250px !important;
 }
