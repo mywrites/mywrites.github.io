@@ -11,5 +11,5 @@ While certain content has been abbreviated or redacted to protect proprietary in
 
 If you are seeking a meticulous and reliable writer with 100% on-time documentation delivery, look no further!
 
-Tracey
+**Tracey**
 [Click here to email](mailto:th.write.hand@gmail.com)
