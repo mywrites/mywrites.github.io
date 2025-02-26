@@ -79,7 +79,7 @@ To create queries:
    Grafana contains the new dashboard panel. You can search the dashboard name for quick access. You also can view this dashboard on your **Home** page under **Recently viewed dashboards**. Here, you can select the **Star** icon next to the entry, making it a **Favorite** under **Starred dashboards**. Starring the dashboards allows faster and more efficient access.
 11.	Edit the panel and customize visualization settings as preferred, using the **Switch to table** and **Open visualization suggestions** options.
 
-As noted in the steps above, you can create a query and add this query to a dashboard. Similarly, you also can select **Dashboards | New dashboard** from the left navigation pane on the **Home** page, add a panel, create a query, then add this query to a new dashboard – repeating most of the previous steps.
+As noted in the steps above, you can create a query and add this query to a dashboard. Similarly, you also can select Dashboards then New dashboard from the left navigation pane on the **Home** page, add a panel, create a query, then add this query to a new dashboard – repeating most of the previous steps.
 
 ## Sample Query Editor Workflow
 1. Make certain the **loki-datasource** corresponds to your company’s datasource name. For example: ORG-dev-customer or ORG-prd-customer.
