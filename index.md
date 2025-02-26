@@ -11,9 +11,9 @@ From computer programming courses to technical writing . . . <br/>
 
 I am a writer by trade and at heart.
 
-For all documents in my portal, I perform in-depth research (reading existing content and other collateral), view instructional videos, and navigate applications – leveraging these efforts to independently understand software solutions. When necessary, I also collaborate with subject matter experts to confirm my understanding. 
+For all documents in my portal, I performed in-depth research (reading existing content and other collateral), viewed instructional videos, and navigated applications – leveraging these efforts to independently understand software solutions. When necessary, I also collaborated with subject matter experts to confirm my understanding. 
 
-I am intentional and user-focused when I write. My goal is to educate, which enables engineers, customers (technical and non-technical), and stakeholders to gain tremendous insight. I find gratitude in creating clear and concise content, particularly when users voice appreciation for finally understanding software functionality, technical concepts, and workflows.
+I am intentional and user-focused when I write. My goal is to educate, which enables engineers, customers (technical and non-technical), and stakeholders to gain tremendous insight. I find gratitude in creating clear and concise content, particularly when users voice appreciation for finally understanding software functionality, technical concepts, or workflows.
 
 While I have abbreviated or redacted portal content to protect proprietary information, the majority of my work is fully available for review. This portal showcases my writing range, style, and expertise.
 
