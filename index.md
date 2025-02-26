@@ -3,9 +3,11 @@ layout: default
 title: "Welcome Home!"
 category: home
 ---
-Discover an exceptional range of content that informs and inspires! For all documents in my portal, I performed in-depth research (reading existing content and other collateral), viewed instructional videos, and navigated software – leveraging these efforts to independently understand solutions. When necessary, I also collaborated with subject matter experts to confirm my understanding. 
+Discover an exceptional range of content that informs and helps readers gain a solid understanding of software functionality, technical concepts, and workflows. 
 
-The purpose of these articles is to educate, enabling engineers, customers (technical and non-technical), and stakeholders to gain tremendous insight and enhance their knowledge.
+For all documents in my portal, I performed in-depth research (reading existing content and other collateral), viewed instructional videos, and navigated applications – leveraging these efforts to independently understand software solutions. When necessary, I also collaborated with subject matter experts to confirm my understanding. 
+
+The purpose of this documentation is to educate, enabling engineers, customers (technical and non-technical), and stakeholders to gain tremendous insight and enhance their knowledge.
 
 While certain content has been abbreviated or redacted to protect proprietary information, the majority of my work is fully available for review. This content showcases my writing range, style, and expertise.
 
