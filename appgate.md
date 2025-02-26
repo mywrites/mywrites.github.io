@@ -14,7 +14,7 @@ P1 SSO also helps authenticate and authorize DoD network users. While you can br
 ## NIPRNet
 The DoD uses **Non-Classified Internet Protocol Router Network (NIPRNet)** to manage unclassified information. If you use NIPRNet or NIPRNet VPN (such as Air Force Desktop Anywhere), you can access IL4 and IL5 without using Appgate SDP. DoD's P1 team requires that you use Appgate SDP if you do not use NIPRNet or NIPRNet VPN, as you cannot access IL4 or IL5 without using one of these options.
 
-**NOTE:**
+**NOTE:** <br/>
 As customers, it is critical to understand that CNAP allows secure access to Game Warden-hosted solutions at IL4 and IL5. As a reminder, P1 CNAP manages Appgate.
 
 The implementation of Appgate and Palo Alto firewalls provides DoD-approved solutions that meet security controls, as referenced in sections 5.10.1.x of the Cloud Computing Security Requirements Guide (Version 1, Release 4).

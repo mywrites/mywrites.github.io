@@ -68,8 +68,7 @@ Below is a workflow diagram of the Keycloak SSO process:
 
 ![Keycloak](/img/keycloak3.png)
  
-**NOTE:**
-
+**NOTE**: <br/>
 The diagram above references a Common Access Card (CAC), External Certification Authority (ECA), and a Federal Personal Identity Verification (PIV) card. These cards provide access to Game Warden-hosted secure applications in the Staging (STG) and Production (PRD) environments. 
 
 **CONTENT REMOVED**

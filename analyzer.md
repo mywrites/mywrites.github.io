@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Quick Start"
+title: "Quick Start Guide"
 category: "Life Sciences"
 ---
 ![Analyze](/img/analyze1.png)
@@ -16,7 +16,7 @@ category: "Life Sciences"
 * Keyboard, Mouse
 * Software
 
-# High-level Medical Device Workflow
+# High-level Workflow
 
 ![Analyze](/img/analyze2.png)
 
@@ -26,10 +26,10 @@ category: "Life Sciences"
 
 ## Quick Start
 
-* Push the **Power** button on front of the Medical Device.
+* Push the **Power** button on front of the device.
 * Turn on the computer and monitor before accessing Windows using the provided login credentials.
-* Double-click the **Medical Device** desktop icon.
-* Minimize the **Medical Device Software Login** screen.
+* Double-click the device desktop icon.
+* Minimize the **Software Login Credentials** screen.
 * Load **Putty** application, start testmanager, and begin **Power On Self-Test** (POST).
 * Initiate cartridge priming process.
 * Turn on remaining system components.
@@ -45,12 +45,12 @@ category: "Life Sciences"
  
    * If you are using a pre-filled well plate, remove foil.
    * If you are manually preparing a well plate, pipette reagents and calibrator solution into an empty well plate.
-* Maximize the **Medical Device Software Login** screen and enter login credentials.
+* Maximize the **Software Login Credentials** screen and enter your credentials.
 * Select the **Run** tab.
 * Enter a **Run Name**.
 * Select a **Panel**.
 * Enter data in the **Well Plate ID** field.
-* Load consumables, ensuring that each is placed into the DNA Analyzer in the correct orientation.
+* Load consumables, ensuring that each is placed into the medical device in the correct orientation.
 * Close drawer.
 * Start **Run Initialization**.
 * Remove consumables (after Run completion) and dispose per company protocol.
@@ -59,7 +59,7 @@ category: "Life Sciences"
 
 After the Run completes, you must properly dispose of consumables per your company protocol. All consumables are single-use only and can be disposed of in municipal waste receptacles.
 
-## Medical Device Maintenance
+## Maintenance
 
 | **Item**                   | **Frequency**                        | **Method**
 | ---------------------------|--------------------------------------|------------------

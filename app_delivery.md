@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Application Delivery Method"
+title: "Application Delivery"
 category: "Policies"
 ---
 This policy establishes a set of requirements designed to standardize application delivery methods; more specifically, this policy ensures there is a consistent, efficient, and secure method in place for moving applications from servers to user workstations. Citrix, located on the desktop, is the mechanism servers use to deliver applications – using the product: XenApp. The XenApp software allows the operation of all of our company's medical applications. The XenApp software, not visible to users, allows Citrix Administrators to access the application to troubleshoot issues. The Citrix XenApp and XenDesktop technologies are the primary methods for delivering applications to user workstations.

@@ -3,9 +3,17 @@ layout: default
 title: "Quick Start Guide"
 category: "Configuration"
 ---
-**CONTEXT**: I created six user guides for Synadia's distributed systems/communications solution: NATS. Applications, IoT devices, and cloud-based services use the NATS product for secure, fast, and efficient message exchange, even when these entities are spread across different computers or data centers. For example, NATS provides functionality that alerts you when the air pressure in your tires is low. Tracking systems integrated with NATS can provide product order notifications. NATS can ensure your refrigerator temperatures enters energy-saving mode at night. Yes, that's NATS!
+**CONTEXT**: I created six user guides for Synadia's distributed systems/communications solution: NATS. Applications, IoT devices, and cloud-based services use NATS for secure, fast, and efficient message exchange. 
 
-The Synadia Cloud user guides, which accompany the Walkthrough [videos](https://docs.synadia.com/cloud/walkthrough), explore the dashboard and provide setup instructions. You can leverage this insight to configure your environment.
+* Need to manage traffic lights and control traffic flow? Use NATS!
+* Need to send mission control commands to satellites? Use NATS!
+* Need to create or improve a ride share or food delivery app? Use NATS!
+* Need to track website product orders and check status/shipment? Use NATS!
+* Need to ensure your refrigerator temperature enters energy-saving mode at night? Use NATS!
+
+The Synadia Cloud user guides, which accompany the Walkthrough [videos](https://docs.synadia.com/cloud/walkthrough), explore the dashboard and provide setup instructions. You can leverage this insight to configure your environment. 
+
+The purpose of this Quick Start Guide is to, first, ensure you can acquire Synadia Cloud provisioned and authenticated credentials, which you will use to connect to the NATS server. At minimum, you must establish an account and a user.
 
 ## Prerequisites
 1. [Synadia Cloud Sign-up](https://cloud.synadia.com./)
@@ -88,6 +96,8 @@ To create a user:
     ![Overview No Data](/img/syn_qs_overview_no_data6.png)
 
 ## Connection
+
+**NOTE**: <br/>
 **For new users**: Step 1 in the **Get Connected** window referenced below requires that you download a **Credentials** file. Save this file in your **nats-cli** folder, created as a prerequisite. If you did not create the **nats-cli** folder, save the **Credentials** file in the same folder as your **nats-cli**. You might also prefer to use environment variables.
 
 **For new Windows/PowerShell users**: Step 2 in the **Get Connected** window requires that you copy a command statement. We recommend that you paste this command into Notepad++ (or similar editor), remove the backslash "\" separators, and use the **Backspace** key to ensure this statement appears on one continuous line. Equally as important, ".\" precedes this command (and others that you enter in your terminal). **An example appears further below**.

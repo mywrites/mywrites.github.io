@@ -11,7 +11,7 @@ Game Warden tooling includes GitLab, which is a DevSecOps platform used to store
 ## Registries
 Currently, you can push images to both the Nexus and Harbor registries. The Game Warden team is slated to transition to Harbor registry use only. With both registries, CI/CD pipelines move your images through the scanning and hardening processes. The Game Warden team uses Anchore Enterprise and Prisma Cloud to both scan/harden images and identify vulnerabilities. The team also uses ClamAV for malware detection.
 
-**NOTE:**
+**NOTE:** <br/>
 First, a bit of clarity relative to images and containers . . .
 
 Docker, at its core, is a Platform as a Service (PaaS) that enables developers to build and deploy containers which store applications and their dependencies. Since a container stores applications and all components that applications need to run successfully, containerized applications function as designed despite where you deploy them.
