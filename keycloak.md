@@ -3,7 +3,7 @@ layout: default
 title: "Keycloak"
 category: "Identity Access Management"
 ---
-Keycloak Single Sign On (SSO) is the Identity and Access Management (IAM) solution that allows you to access the Game Warden web app, your products, and other Game Warden-hosted solutions more securely and using a single set of login credentials.
+Keycloak Single Sign On (SSO) is the Identity and Access Management (IAM) solution that allows you to access the Game Warden Web app, your products, and other Game Warden-hosted solutions more securely and using a single set of login credentials.
 
 Game Warden Keycloak SSO integrates with the Platform One (P1) SSO. Both function similarly, allowing secure access to the same applications. This article provides insight into the Game Warden Keycloak SSO process, hereafter referred to as Keycloak SSO.
 

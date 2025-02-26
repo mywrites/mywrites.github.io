@@ -31,7 +31,7 @@ The Synadia Cloud user guides, which accompany the Walkthrough [videos](https://
 1. [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install) installation (Windows users only)
 
 ## Overview
-Five user guides accompany the Synadia Cloud Walkthrough [videos](https://docs.synadia.com/cloud/walkthrough):
+Five other user guides accompany the Synadia Cloud Walkthrough [videos](https://docs.synadia.com/cloud/walkthrough):
 
 1. [Synadia Cloud Overview](https://docs.synadia.com/cloud/user-guides/sc-overview)
 1. [Connection Graph](https://docs.synadia.com/cloud/user-guides/connection-graph)
