@@ -22,3 +22,8 @@ nav {
   margin-left: 420px; /* To make space for the fixed navigation */
   padding: 20px;
 }
+
+sidebar {
+  width: 400px;  /* or whatever width matches your index page */
+  /* Adjust the width if needed */
+}
