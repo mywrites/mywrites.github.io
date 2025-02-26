@@ -5,9 +5,9 @@ category: home
 ---
 Writing is my passion. 
 
-From the high school yearbook staff to college publications . . .
-From writing for various news outlets to proposal writing . . .
-From computer programming courses to technical writing . . .
+From the high school yearbook staff to college publications . . . <br/>
+From writing for various news outlets to proposal writing . . . <br/>
+From computer programming courses to technical writing . . . <br/>
 
 I am a writer by trade and at heart.
 
