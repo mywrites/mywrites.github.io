@@ -3,6 +3,7 @@ layout: default
 title: "Requirements"
 category: "Cybersecurity"
 ---
+## General
 You must satisfy general requirements referenced in the table below. Ensure you comply with these specifications prior to contacting the Game Warden team.
 
 | **Requirements**                            | **Details**                                        |
@@ -13,7 +14,27 @@ You must satisfy general requirements referenced in the table below. Ensure you 
 | **To deploy to the IL4+ Staging (STG) and Production (PRD) environments, you must have a government contract**. | You must maintain an active DoD contract to deploy into IL4 or IL5 (CUI). Only CAC/ECA/PIV card holders may access Game Warden in sensitive data classifications. |
 | **Applications will be associated with the .mil domain**. | All applications will deploy under the Game Warden afwerx.dso.mil domain. |
 
-# Guidance
+## Technical
+You must satisfy technical requirements to deploy applications securely and at scale onto the Game Warden platform. Ensure applications meet these specifications prior to contacting the Game Warden team.
+
+### Architecture
+
+| **Requirements**                            | **Details**                                        |
+| --------------------------------------------| ---------------------------------------------------|
+| Applications must meet ATO security requirements. | Application must reside within containers and comply with standards specific to the Open Container Initiative. |
+| You must have services for seeding databases, or you must provide scripts for the Game Warden team to execute for you. | At IL4, you will not have *write* access to your production database. |
+| Architecture MUST run on AMD64/X86          | We do not currently support ARM.  |
+
+### Security
+| **Requirements**                            | **Details**                                        |
+| --------------------------------------------| ---------------------------------------------------|
+| Applications must meet ATO security requirements.    | Our team scans applications for security vulnerabilities, and you must resolve them per our [Acceptance Baseline Criteria](https://helpcenter.gamewarden.io/security/security_review/cves_and_compliance/acceptance-baseline-criteria/). You must regularly update your components to align with ATO security standards, ensuring they remain secure and compliant.|
+| Applications must integrate with a DoD-approved authentication and authorization. | Our team supports two Department of Defense (DoD)-approved services: Game Warden and Platform One. |
+| You must have CACs, ECAs, or PIVs to access IL4+ applications. | You must navigate the DoD vetting process to secure either a Common Access Card (CAC) or a Federal Personal Identity Verification (PIV) card from a mission sponsor. You also may obtain an External Certification Authority (ECA) card from an approved third party. | 
+| Application data must adhere to classification limits. | Permitted data includes Controlled Unclassified Information (CUI), Personally Identifiable Information (PII), IL2, IL4, and IL5 along with data specific to the International Traffic in Arms Regulations (ITAR). Contact the Game Warden team for data associated with IL6, Special Access Programs (SAP), or Sensitive Compartmented Information (SCI). |
+
+
+## Guidance
 The Game Warden team will work with you to ensure your product aligns with these general requirements and, going forward, provide any necessary insight to help you. Contact us at [Growth](mailto:growth@secondfront.com) for additional information.
 
 <style>
