@@ -3,6 +3,8 @@ layout: default
 title: "Quick Start Guide"
 category: "Life Sciences"
 ---
+**CONTEXT**: I created several documents for a life sciences organization that developed a medical device (for research use only) to analyze DNA to detect genetic diseases.
+
 ![Analyze](/img/analyze1.png)
 
 ## System Components

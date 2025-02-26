@@ -3,6 +3,9 @@ layout: default
 title: "File Services"
 category: "Policies"
 ---
+**CONTEXT**: I created this content for a company that required standardized data center policies.
+Based on the insight the system administrator provided along with the required specifications, I created more than 30 policy documents.
+
 This policy establishes a set of standards designed to ensure that PC users may save designated amounts of data on their workstations; data that is properly stored, maintained, and protected. 
 
 Transparent folder resources are assigned to all workstation users – via File Share Resource Manager (FSRM) – allowing users to save up to 2GB of data on their PCs. This data, in turn, is housed on a storage cluster that is maintained and safeguarded by the Systems Administration Group.
