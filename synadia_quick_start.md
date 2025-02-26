@@ -11,9 +11,10 @@ category: "Configuration"
 * Need to track website product orders and check status/shipment? Use NATS!
 * Need to ensure your refrigerator temperature enters energy-saving mode at night? Use NATS!
 
+The purpose of this Quick Start Guide is to, first, ensure you can acquire Synadia Cloud provisioned and authenticated credentials, which you will use to connect to the NATS server. At minimum, you must establish an account and a user.
+
 The Synadia Cloud user guides, which accompany the Walkthrough [videos](https://docs.synadia.com/cloud/walkthrough), explore the dashboard and provide setup instructions. You can leverage this insight to configure your environment. 
 
-The purpose of this Quick Start Guide is to, first, ensure you can acquire Synadia Cloud provisioned and authenticated credentials, which you will use to connect to the NATS server. At minimum, you must establish an account and a user.
 
 ## Prerequisites
 1. [Synadia Cloud Sign-up](https://cloud.synadia.com./)

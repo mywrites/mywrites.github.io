@@ -111,7 +111,7 @@ The infrastructure design uses VMware and other products to include:
 * Veeam Backup and Replication
 * Zerto Replication
 
-**Redacted**
+**Content Removed**
 
 <style>
   table {

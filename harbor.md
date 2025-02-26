@@ -14,7 +14,7 @@ Alternatively, if you are using an automated pipeline process, please contact ou
 **NOTE:** <br/>
 When you use unmodified Iron Bank images in your deployment, the Game Warden team will pull these images directly into our infrastructure (as opposed to you pushing them).
 
-# Prerequisites
+## Prerequisites
 1.	Create a [Platform One (P1) Single Sign-On (SSO)](https://helpcenter.gamewarden.io/integrations-access/platform_one/) account.
 1.	Ensure you have authorization to push images into Harbor on behalf of your company. You must provide our Customer Operations team with a list containing the **Username** and **Email Address** for each authorized user.
 

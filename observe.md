@@ -47,7 +47,7 @@ Users are associated with teams. These teams have permission solely to access th
 
    ![Observe](/img/observe1.png)
 
-# Create Queries and Dashboards
+## Create Queries and Dashboards
 You can create, edit, and execute queries using **Explore**.
 To create queries:
 1. Select **Explore** from the left navigation pane.
@@ -84,7 +84,7 @@ To create queries:
 
 As noted in the steps above, you can create a query and add this query to a dashboard. Similarly, you also can select **Dashboards** then **New dashboard** from the left navigation pane on the **Home** page, add a panel, create a query, then add this query to a new dashboard – repeating most of the previous steps.
 
-**Redacted**
+**Content Removed**
 
 
 
