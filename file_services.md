@@ -14,7 +14,7 @@ The *File Services* policy identifies the requirements that must be satisfied to
 ## Terms
 The following terms are specific to the *File Services* policy:
 
-| **Term**                            | **Description**                                        |
+| **Terms**                            | **Descriptions**                                        |
 | ------------------------------------| -------------------------------------------------------|
 | File Share Resource Manager (FSRM)  | Backend software used by the Systems Administration Group to manage files and monitor hard drive storage. |
 | Information Security Officer (ISO)  | Team member charged with developing, implementing, enforcing, and maintaining IT security standards for all data systems, thus ensuring there are no breaches and all information and patient data remain safeguarded. The ISO has a range of other responsibilities, such as performing audits, investigating security incidents, evaluating IT risks, and determining IT security policy and strategy. |

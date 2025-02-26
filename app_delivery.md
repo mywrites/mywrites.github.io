@@ -11,7 +11,7 @@ The *Citrix XenApp* policy identifies the requirements that must be satisfied to
 ## Terms
 The following terms are specific to the *Application Delivery Method* policy:
 
-| **Term**                            | **Description**                                        |
+| **Terms**                           | **Descriptions**                                       |
 | ------------------------------------| -------------------------------------------------------|
 | Citrix XenApp                       | Citrix, located on the desktop, is the mechanism servers use to deliver applications – using the product: XenApp. This software backend, not visible to users, allows Citrix Administrators to access the application to troubleshoot issues. The Citrix XenApp/XenDesktop technologies are the primary methods of delivering applications to user PCs and workstations. |
 | Information Security Officer (ISO)  | Team member charged with developing, implementing, enforcing, and maintaining IT security standards for all data systems, thus ensuring there are no breaches and all information and patient data remain safeguarded. The ISO has a range of other responsibilities, such as performing audits, investigating security incidents, evaluating IT risks, and determining IT security policy and strategy. |
