@@ -3,7 +3,7 @@ layout: default
 title: "Self-Service Guide"
 category: "Cloud"
 ---
-**CONTEXT**: I created this content for technical and non-technical audiences who must select their virtual assets (OS, storage, memory), execute reports, and determine payment options in this cloud environment.
+**CONTEXT**: I created this content for a cloud solutions company that needed technical and non-technical self-service documentation, enabling these users to select their virtual assets (OS, storage, memory), execute reports, and determine payment options in this cloud environment.
 
 ## Infrastructure as a Service
 Infrastructure as a Service (IaaS) allows you to outsource computing hardware (storage, servers, and network components). You can access this equipment via our cloud and pay for this computing hardware on a pay-as-you-go basis. We own the equipment and are responsible for all computing hardware maintenance, upgrades, and troubleshooting.
