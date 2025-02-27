@@ -54,14 +54,17 @@ To create queries:
    
    For example, you can select {ORG}-prd-customer.
 1. Create a LogQL query, using format:
+   
    {log-stream-selector} | log-pipeline
    
    The stream selector should always include the application namespace and can include additional options. This query section narrows the logs your query searches. The log pipeline contains functions or transformations that are performed on the logs you specify with the stream selector.
 
    **EXAMPLE QUERY**: This query searches for log entries that contain “400”.
+   
    {namespace="YOUR_APPLICATION_NAMESPACE", container="CONTAINER_NAME"} |= '400'
    
    **EXAMPLE LOG ENTRY**: This entry is in a common access log format used by nginx.
+   
    127.0.0.6 - - [09/Jan/2023:22:40:17 +0000] "POST /api/request-path HTTP/1.1" 400 2 "-" "HTTP-AGENT/1.0.0"
 
    Your application logs must use consistent formats across an application. This allows queries to capture relevant information more easily and ensures no logs are missed by a given query.
@@ -70,9 +73,11 @@ To create queries:
    You can use fields such as **Metrics**, **Label Filters**, **Operations**, and **Legends** to help build queries. As you enter information in these fields, Grafana provides auto-complete suggestions based on your input.
 1. Review the query statement(s) to ensure accuracy.
 1. Click **Run Query** to execute.
+   
    Grafana displays the query results on the lower section of the page.
 1. Click **Add to Dashboard** near the top right of the page.
 1. Click **Open dashboard**.
+   
    The dashboard opens.
 1. Click the **Save dashboard** icon near the top right of the page.
 1. Enter a **Dashboard name** and use the drop-down arrow to select a Folder.
