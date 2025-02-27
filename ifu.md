@@ -14,10 +14,10 @@ This Instructions for Use (IFU) document serves as an informational guide to hel
 To use and operate the priming station properly, follow the steps documented below.
 1. Press the **Power** button at the rear of the device to turn on the priming station.
     
-    The screen illuminates, the system boots, and (momentarily) the screen displays a **System Ready** message.
-    The remaining priming station user functions (specific to equipment operation) are touch-screen only, as there are no other buttons on this device.
+    The screen illuminates, the system boots, and the screen displays a **System Ready** message.
+    The remaining priming station user functions specific to equipment operation are touch-screen only, as there are no other buttons on this device.
 1. Remove the cartridge from its packaging, wearing disposable gloves and holding the cartridge by its edges.
-1. Inspect the cartridge, ensuring it (visibly) looks intact and the heat sink remains attached to the cartridge.
+1. Inspect the cartridge, ensuring it visibly looks intact and the heat sink remains attached to the cartridge.
 
     ![IFU](/img/ifu1.png)
 
@@ -46,7 +46,7 @@ To use and operate the priming station properly, follow the steps documented bel
     Following this cartridge inspection, the cartridge is ready for use.
 1. Press the **Prime Another Cartridge** button to perform this action when priming multiple cartridges, for example. 
     
-    The **System Ready** message appears, indication that the system is ready to prime another cartridge. You also may press the **Prime Another Cartridge** button during the 20-minute priming station drying process, thus interrupting this operation to prime additional cartridges.
+    The **System Ready** message appears, indication that the system is ready to prime another cartridge. You also may press the **Prime Another Cartridge** button during the 20-minute priming station drying process, interrupting this operation to prime additional cartridges.
 1. Press the **Power** button at the rear of the device to shut down the priming station.
     
 

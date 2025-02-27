@@ -12,7 +12,7 @@ Appgate Software-Defined Perimeter (SDP) is a Department of Defense (DoD)-approv
 P1 SSO also helps authenticate and authorize DoD network users. While you can browse IL2 without Appgate SDP access, you must – in some cases – use Appgate SDP to enter IL4+ environments. For IL5 access outside the NIPRNet boundary, you must also run compliance scripts.
 
 ## NIPRNet
-The DoD uses **Non-Classified Internet Protocol Router Network (NIPRNet)** to manage unclassified information. If you use NIPRNet or NIPRNet VPN (such as Air Force Desktop Anywhere), you can access IL4 and IL5 without using Appgate SDP. DoD's P1 team requires that you use Appgate SDP if you do not use NIPRNet or NIPRNet VPN, as you cannot access IL4 or IL5 without using one of these options.
+The DoD uses **Non-Classified Internet Protocol Router Network (NIPRNet)** to manage unclassified information. If you use NIPRNet or NIPRNet VPN, such as Air Force Desktop Anywhere, you can access IL4 and IL5 without using Appgate SDP. DoD's P1 team requires that you use Appgate SDP if you do not use NIPRNet or NIPRNet VPN, as you cannot access IL4 or IL5 without using one of these options.
 
 **NOTE:** <br/>
 As customers, it is critical to understand that CNAP allows secure access to Game Warden-hosted solutions at IL4 and IL5. As a reminder, P1 CNAP manages Appgate.
@@ -49,5 +49,5 @@ To install and run Appgate SDP:
         The Appgate SDP session closes and becomes hidden.
 1. Re-open Appgate SDP at any time by clicking **Sign in with Provider**, which launches the P1 Login page.
 
-Customers who do not access IL4+ via NIPRNet or NIPRNet VPN (such as Air Force Desktop Anywhere), must use Appgate SDP to access these environments. During this access, Appgate SDP must remain open and active.
+Customers who do not access IL4+ via NIPRNet or NIPRNet VPN, such as Air Force Desktop Anywhere, must use Appgate SDP to access these environments. During this access, Appgate SDP must remain open and active.
 

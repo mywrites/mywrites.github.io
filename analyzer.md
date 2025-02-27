@@ -55,7 +55,7 @@ category: "Life Sciences"
 * Load consumables, ensuring that each is placed into the medical device in the correct orientation.
 * Close drawer.
 * Start **Run Initialization**.
-* Remove consumables (after Run completion) and dispose per company protocol.
+* Remove consumables after Run completion and dispose per company protocol.
 * Analyze data.
 * Turn off system components.
 

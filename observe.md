@@ -62,7 +62,7 @@ To create queries:
    **EXAMPLE QUERY**: This query searches for log entries that contain “400”.
    {namespace="YOUR_APPLICATION_NAMESPACE", container="CONTAINER_NAME"} |= '400'
    
-   **EXAMPLE LOG ENTRY**: This entry is in a common access log format (used by nginx).
+   **EXAMPLE LOG ENTRY**: This entry is in a common access log format used by nginx.
    127.0.0.6 - - [09/Jan/2023:22:40:17 +0000] "POST /api/request-path HTTP/1.1" 400 2 "-" "HTTP-AGENT/1.0.0"
 
    Your application logs must use consistent formats across an application. This allows queries to capture relevant information more easily and ensures no logs are missed by a given query.
