@@ -23,5 +23,10 @@ If you are seeking a meticulous and reliable writer with 100% on-time documentat
 **Tracey** <br/>
 [Click here to email](mailto:th.write.hand@gmail.com)
 
-![WriteOn](/img/landing.png)
+
+<div style="text-align: center;">
+  <img src="/img/landing.png" alt="WriteOn" width="500" height="auto" />
+</div>
+
+
 
