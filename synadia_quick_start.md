@@ -13,6 +13,8 @@ category: "Configuration"
 
 The purpose of this Quick Start Guide is to, first, ensure you can acquire Synadia Cloud provisioned and authenticated credentials, which you will use to connect to the NATS server. At minimum, you must establish an account and a user.
 
+**PUBLISHED CONTENT BEGINS HERE**
+
 The Synadia Cloud user guides, which accompany the Walkthrough [videos](https://docs.synadia.com/cloud/walkthrough), explore the dashboard and provide setup instructions. You can leverage this insight to configure your environment. 
 
 
@@ -101,7 +103,7 @@ To create a user:
 **NOTE**: <br/>
 **For new users**: Step 1 in the **Get Connected** window referenced below requires that you download a **Credentials** file. Save this file in your **nats-cli** folder, created as a prerequisite. If you did not create the **nats-cli** folder, save the **Credentials** file in the same folder as your **nats-cli**. You might also prefer to use environment variables.
 
-**For new Windows/PowerShell users**: Step 2 in the **Get Connected** window requires that you copy a command statement. We recommend that you paste this command into Notepad++ (or similar editor), remove the backslash "\\" separators, and use the **Backspace** key to ensure this statement appears on one continuous line. Equally as important, ".\" precedes this command (and others that you enter in your terminal). **An example appears further below**.
+**For new Windows/PowerShell users**: Step 2 in the **Get Connected** window requires that you copy a command statement. We recommend that you paste this command into Notepad++ or similar editor, remove the backslash "\\" separators, and use the **Backspace** key to ensure this statement appears on one continuous line. Equally as important, ".\" precedes this command and others that you enter in your terminal. **An example appears further below**.
 
 **For new Linux users**: In general, use a forward slash "/" as opposed to a backslash "\\" when executing commands.
 
@@ -129,9 +131,9 @@ To establish a connection:
 
 1. Copy the code then paste into your terminal.
 
-    We recommend that new Windows/PowerShell users follow the instructions specified in the Note above. Also, leaving one or more spaces between sections of the command statement (as shown below) does not impact execution.
+    We recommend that new Windows/PowerShell users follow the instructions specified in the **NOTE** above. Also, leaving one or more spaces between sections of the command statement (as shown below) does not impact execution.
 
-    Example:
+    **EXAMPLE**:
 
     .\nats context save --select "NGS-Cloud_Acct-cloud"  --server "tls://connect.ngs.global"  --creds   C:\Synadia_Software\nats-cli\NGS-Cloud_Acct-cloud.creds
 
