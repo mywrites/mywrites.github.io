@@ -29,9 +29,9 @@ You can access Grafana via the IL2 Development (DEV) and Production (PRD) enviro
 1. Click the right-facing arrow near the top left pane to expand the navigation area.
 
 ## Permissions
-Customers only have access to dashboards in their folder along with a **General** folder, which will contain generalized queries and templates developed by the Site Reliability Engineering (SRE) team. The Observability Stack – Loki, Prometheus, and Grafana – provides access only to application log data and metrics in your Kubernetes application namespace.
+Customers only have access to dashboards in their folder along with a **General** folder, which will contain generalized queries and templates developed by the Site Reliability Engineering (SRE) team. The Observability Stack – Loki and Grafana – provides access only to application log data and metrics in your Kubernetes application namespace.
 
-Users are associated with teams. These teams have permission solely to access their customer folder and datasources, which pull data from the Kubernetes clusters into Grafana. Datasources also include some of the Prometheus runtime metrics associated with the application.
+Users are associated with teams. These teams have permission solely to access their customer folder and datasources, which pull data from the Kubernetes clusters into Grafana.
 
 ## View Dashboards
 1. Select **Dashboards** then **Browse** from the left navigation pane.
@@ -79,7 +79,7 @@ To create queries:
 1. Enter a **Dashboard name** and use the drop-down arrow to select a Folder.
 1. Click **Save** to store changes.
    
-   Grafana contains the new dashboard panel. You can search the dashboard name for quick access. You also can view this dashboard on your **Home** page under **Recently viewed dashboards**. Here, you can select the **Star** icon next to the entry, making it a **Favorite** under **Starred dashboards**. Starring the dashboards allows faster and more efficient access.
+   Grafana contains the new dashboard panel. You can search the dashboard name for quick access. You also can view this dashboard on your **Home** page under **Recently viewed dashboards**. Here, you can select the **Star** icon next to the entry, making it a **Favorite** under **Starred dashboards**. Adding a star to the dashboards allows faster and more efficient access.
 11.	Edit the panel and customize visualization settings as preferred, using the **Switch to table** and **Open visualization suggestions** options.
 
 As noted in the steps above, you can create a query and add this query to a dashboard. Similarly, you also can select **Dashboards** then **New dashboard** from the left navigation pane on the **Home** page, add a panel, create a query, then add this query to a new dashboard and repeat most of the previous steps.
