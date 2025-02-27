@@ -9,7 +9,9 @@ From the high school yearbook staff to college publications . . . <br/>
 From writing for various news outlets to proposal writing . . . <br/>
 From computer programming courses to technical writing . . . <br/>
 
-I am a writer by trade and at heart.
+I am a writer by trade and at heart. 
+
+I also enjoy learning new technologies and getting into the nitty-gritty of how applications and processes work. As they say: Curiosity is the best bug in the system!
 
 For all documents in my portal, I performed in-depth research (reading existing content and other collateral), viewed instructional videos, and navigated applications – leveraging these efforts to independently understand software solutions. When necessary, I also collaborated with subject matter experts to confirm my understanding. 
 
