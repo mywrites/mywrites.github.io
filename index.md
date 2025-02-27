@@ -25,7 +25,7 @@ If you are seeking a meticulous and reliable writer with 100% on-time documentat
 
 
 <div style="text-align: center;">
-  <img src="/img/landing.png" alt="WriteOn" width="800" height="650" />
+  <img src="/img/landing.png" alt="WriteOn" width="800" height="700" />
 </div>
 
 
