@@ -32,14 +32,14 @@ The procedures delineated below must be followed to comply with the Citrix XenAp
 1. Citrix XenApp/Xen Server/XenDesktop hardware must be provided solely by TSO.  
 1. IT support must require that any vendor application be compatible with a supported version of XenApp, Windows OS, and all components within the OS such that they meet IT application and security standards. In addition, as versions of the XenApp and Windows server operating systems become outdated and unsupported, IT support must have assurances, in writing, that a technical roadmap exists for upgrades and configuration changes for 5-year vendor support of any Citrix resource published in the Citrix environment.
 1. All hardware attached to Citrix servers or workstations (using a Citrix receiver or resource) must, before deployment, be listed on the current Citrix/Windows/VMware compatibility matrix, which is available online. Attached hardware not on these compatibility matrices will not be supported in the Citrix environment.
-1. XenApp software deployments must be performed in accordance with the best performance and reliability practices provided by Citrix Systems, Inc. for any current and supported versions of XenApp.
+1. XenApp software deployments must be performed in accordance with the best performance and reliability practices that Citrix Systems, Inc. provides for any current and supported versions of XenApp.
 1. Administrative/root access to Citrix infrastructure devices (such as Server OS, Citrix Admin Console, and NetScaler) is not allowed without written approval from the Systems Assurance Group (SAG).
-1. All vendor application software must be installed by the vendor (or a representative) onto XenApp servers. IT support must be readily available to provide needed system access to accomplish this task. Per **Redacted** IT support protocol, no configuration changes are permitted to the Windows OS that will compromise security or OS functionality. Any potential issues (to include the aforementioned changes) must be reviewed by SAG before any production system deployments are authorized.
+1. The vendor (or a representative) must install all vendor application software onto XenApp servers. IT support must be readily available to provide needed system access to accomplish this task. Per **Redacted** IT support protocol, no configuration changes are permitted to the Windows OS that will compromise security or OS functionality. SAG must review any potential issues (to include the aforementioned changes) before any production system deployments are authorized.
 1. Failure by the vendor to upgrade the application to support new releases of Windows Server OS, VMware, or Citrix XenApp will result in loss of support for the application by the IT staff. 
 1. Any production application performance or reliability issue that occurs after a vendor application publication and deployment on a XenApp server must be the responsibility of the vendor to remedy. IT support will engage and make any necessary and reasonable changes to fix any application or reliability issue, only at the direction of the application vendor.
 1. The vendor must provide any (and all) performance-enhancing solutions to satisfy the **Redacted** patient care providers and ancillary support staff requirements.
 1. IT support will provide and maintain necessary backups and/or snapshots of these servers as a basic recovery plan. Detailed backup requirements from each vendor must be provided to ensure adequate recovery methods exist to recover any Citrix resource defined by the Recovery Point Objective (RPO)/Recovery Time Objective (RTO) requirements. 
-1. All applications that are published through the XenApp tier must be approved by SAG and, when installed, be in full compliance with all requirements referenced in this document.
+1. SAG must approve all applications published through the XenApp tier and, when installed, they must be in full compliance with all requirements referenced in this document.
 
 ### Exceptions
 Exceptions requests (or permission to deviate from any of the above-referenced procedures/requirements) must be submitted to SAG via completion of the *Systems Administration Change of Policy Request* form. This form is available on the corporate SharePoint site, and a copy may be emailed to users who are unable to access this document on the network. 
@@ -52,13 +52,13 @@ SAG meets on alternate Tuesdays. For unique situations (where approval is requir
 
 
 **NOTE**:<br/>
-If the requested change meets the compliance standards referenced in this document, the modification may be authorized by SAG and implemented in the **Redacted** Citrix environment. The approximate timeframe from when the request is initiated to the actual approval/disapproval is 10 business days (for most requests) or as many as 30 days for more complex requests. If the request is rejected, SAG will provide an explanation which will include the restriction (operational/corporate/local/state/federal) that prevents request approval.
+If the requested change meets the compliance standards referenced in this document, SAG might authorize the modification and implement in the **Redacted** Citrix environment. The approximate timeframe from when the request is initiated to the actual approval/disapproval is 10 business days (for most requests) or as many as 30 days for more complex requests. If the request is rejected, SAG will provide an explanation which will include the restriction (operational/corporate/local/state/federal) that prevents request approval.
 
 ## Forms
 Exception requests (or permission to violate any of the above-referenced procedures/requirements) must be submitted to SAG via completion of the *Systems Administration Change of Policy Request* form. This form is available on the corporate SharePoint site, and a copy may be emailed to users unable to access this document on the network. 
 
 ## Responsibilities
-The implementation of this policy rests largely in the hands of members of the Systems Administration Group; however, all **Redacted** employees, contractors (to include persons or companies), and third-party entities/associates who perform work in the data centers (in any capacity) must comply with this policy. 
+The implementation of this policy rests largely in the hands of members of the Systems Administration Group; however, all **Redacted** employees, contractors to include persons or companies, and third-party entities/associates who perform work in the data centers in any capacity must comply with this policy. 
 
 ## Enforcement
 To ensure compliance, TSO and ISO are responsible for enforcing this policy.
@@ -67,7 +67,7 @@ The Director of TSO and the Manager of the Systems Administration Group will ver
 
 All systems will be scanned at regular intervals to determine compliance of patch management. Any item found noncompliant will require immediate remediation. 
 
-Users in violation of this policy may lose their privileges to log on to the network (as explained in the *Corporate Compliance* guidelines and the *Employee Handbook*); in addition, failure to comply with this policy may result in disciplinary actions (to include job termination).
+Users in violation of this policy may lose their privileges to log on to the network (as explained in the *Corporate Compliance* guidelines and the *Employee Handbook*); in addition, failure to comply with this policy may result in disciplinary actions to include job termination.
 
 <style>
   table {
