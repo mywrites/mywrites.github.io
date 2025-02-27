@@ -16,7 +16,7 @@ This Quality Management System (QMS) manual defines policies and procedures that
 * **Part 820 – Quality System Regulation**: Requirements to ensure companies make high-quality medical devices. They must be safe and effective.
 * **Canada Medical Device Regulation SOR 98-282**: Requirements to ensure companies make high-quality medical devices, if these devices are sold in Canada. They must be safe and effective.
 
-The purpose of the document is to define the QMS, communicate its Quality Policy, and demonstrate regulatory compliance to the aforementioned standards.
+The purpose of this document is to define the QMS, communicate its Quality Policy, and demonstrate regulatory compliance to the aforementioned standards.
 
 ## General Requirements
 The QMS processes are monitored, measured for effectiveness, and managed with consistency and oversight. The company exercises a commitment and responsibility to quality via employee training, adherence to procedures, a focus on customer satisfaction, and continuous process improvement. The QMS is managed by a select Senior Management team with a designated point-person (Management Representative) who ensures QMS compliance in accordance with the specified standards. Company products include medical devices, with both hardware and software components, and chemical reagents.
