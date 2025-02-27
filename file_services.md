@@ -6,9 +6,9 @@ category: "Policies"
 **CONTEXT**: I created this content for a company that required standardized data center policies.
 Based on insight the system administrator provided along with the required specifications, I created more than 30 policy documents.
 
-This policy establishes a set of standards designed to ensure that PC users may save designated amounts of data on their workstations; data that is properly stored, maintained, and protected. 
+This policy establishes a set of standards designed to ensure that PC and workstation users may save designated amounts of data on their workstations; data that is properly stored, maintained, and protected. 
 
-Transparent folder resources are assigned to all workstation users – via File Share Resource Manager (FSRM) – allowing users to save up to 2GB of data on their PCs. This data, in turn, is housed on a storage cluster that the Systems Administration Group maintains and safeguards.
+Transparent folder resources are assigned to all workstation users via File Share Resource Manager (FSRM), allowing users to save up to 2GB of data on their PCs and workstations. This data, in turn, is housed on a storage cluster that the Systems Administration Group maintains and safeguards.
 
 File services allow the Systems Administration Group to manage the growth of data on servers and ensure the efficient use of space. They must be in place to control and forecast growth, audit file storage, and ensure file storage compliance with company security requirements. Without this component, hard drive storage might be consumed.
 
@@ -35,7 +35,7 @@ This section describes the current file management configuration for user PCs an
 
 File services allow the Systems Administration Group to manage the growth of data on servers and ensure the efficient use of space. File services must be in place to control and forecast growth, audit file storage, and ensure file storage compliance with company security requirements.
 
-The current and pre-designated default quota for space on each company user PC is 2GB, which is suitable for approximately 98% of the 7,500 users – as most users consume less than 1GB. The remaining 2% of the users (exceptions) have been allocated 5GB of file storage. With both restrictions (2GB and 5GB), the system automatically sends an email notification to users when they reach 90% of their space quota. At 100%, users may no longer write/save data.
+The current and pre-designated default quota for space on each company user PC is 2GB, which is suitable for approximately 98% of the 7,500 users, as most users consume less than 1GB. The remaining 2% of the users (exceptions) have been allocated 5GB of file storage. With both restrictions (2GB and 5GB), the system automatically sends an email notification to users when they reach 90% of their space quota. At 100%, users may no longer write/save data.
 
 User files along with the associated server reside in a storage cluster. FSRM is a software solution that allows the Systems Administration Group (from the backend) to manage documents and files. With FSRM in place along with file storage restrictions, the Systems Administration Group can manage files to ensure that there is no space over-consumption. Equally as important, since the Systems Administration Group manages this data, the user files are more efficiently safeguarded.
 
@@ -55,7 +55,7 @@ If the request meets the compliance standards referenced in this document, SAG m
 Exceptions requests or permission to violate any of the above-referenced procedures/requirements must be submitted to SAG via completion of the *Systems Administration Change of Policy Request* form. This form is available on the corporate SharePoint site, and a copy may be emailed to users unable to access this document on the network. 
 
 ## Responsibilities
-The implementation of this policy rests largely in the hands of members of the Systems Administration Group; however, all **Redacted** employees, contractors to include persons or companies, and third-party entities/associates who perform work in the data centers in any capacity must comply with this policy.   
+The implementation of this policy rests largely in the hands of members of the Systems Administration Group; however, all **Redacted** employees, contractors including persons or companies, and third-party entities/associates who perform work in the data centers in any capacity must comply with this policy.   
 
 ## Enforcement
 To ensure compliance, TSO and ISO are responsible for enforcing this policy.

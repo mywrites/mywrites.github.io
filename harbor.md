@@ -7,9 +7,9 @@ The Game Warden team uses Harbor as its secure image registry. As an open source
 
 The team also uses ClamAV for malware detection. As your images navigate the scanning and hardening processes, tags are appended to the end of your image names to designate the status of each.
 
-You might use varying methods to push images into Harbor. This article focuses on pushing images manually and, more specifically, from a terminal using Docker commands.
+You might use varying methods to push images into Harbor. This article focuses on pushing images manually and from a terminal using Docker commands.
 
-Alternatively, if you are using an automated pipeline process, please contact our Customer Operations team. They can provide *robot credentials* to facilitate this process. Time-defined and commonly distributed for short-term use, robot credentials prevent Harbor session expiration. If you are not using an automated pipeline process, your Harbor session can expire. For example, if you access Harbor in the morning then attempt to push an image into this environment in the afternoon, a Harbor session *timeout* might occur. This scenario will trigger a *failure to authenticate* message in your terminal. If your Docker command login credentials into Harbor *fail to authenticate*, simply re-enter these credentials – accessing Harbor from a web browser.
+Alternatively, if you are using an automated pipeline process, please contact our Customer Operations team. They can provide *robot credentials* to facilitate this process. Time-defined and commonly distributed for short-term use, robot credentials prevent Harbor session expiration. If you are not using an automated pipeline process, your Harbor session can expire. For example, if you access Harbor in the morning then attempt to push an image into this environment in the afternoon, a Harbor session *timeout* might occur. This scenario will trigger a *failure to authenticate* message in your terminal. If your Docker command login credentials into Harbor *fail to authenticate*, simply re-enter these credentials and access Harbor from a web browser.
 
 **NOTE:** <br/>
 When you use unmodified Iron Bank images in your deployment, the Game Warden team will pull these images directly into our infrastructure (as opposed to you pushing them).
@@ -37,7 +37,7 @@ This page (middle right) displays **PUSH COMMAND**. Select this option to open a
 ## Harbor Credentials
 1. Select your P1 account name (top right of **Projects** page) and, from the drop-down list box, click **User Profile**.
 
-   The **User Profile** modal opens, displaying several fields to include the last entry **CLI secret**. A **Copy** icon (overlapping squares) appears at the end of this field.
+   The **User Profile** modal opens, displaying several fields including the last entry **CLI secret**. A **Copy** icon (overlapping squares) appears at the end of this field.
 
    ![Harbor](/img/harbor3.png)
 

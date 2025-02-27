@@ -64,7 +64,7 @@ Accounts allow you to allocate resources and commonly include business functions
 To create an account:
 
 1. Click either of the two **Create Account** options.
-1. Designate your account parameters to include an **Account Name**.
+1. Designate your account parameters including an **Account Name**.
 
     There is no need to focus on the parameters at this point. You can make edits later.
 
@@ -123,7 +123,7 @@ To establish a connection:
 
 1. **Step 2: Create NATS context**
 
-    Generically, the context contains a System, Account, and User – appearing as:
+    Generically, the context contains a System, Account, and User appearing as:
 
     **System-Account-User**
 

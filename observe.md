@@ -3,10 +3,10 @@ layout: default
 title: "Observability"
 category: "Life Sciences"
 ---
-Grafana, an interactive data visualization platform, enables you to query your application's log data and – in turn – retrieve query results presented as logs, charts, graphs, and dashboards.
+Grafana is an interactive data visualization platform that enables you to query your application's log data and, in turn, retrieve query results presented as logs, charts, graphs, and dashboards.
 The Observability Stack uses three tools:
 * Loki
-   * Arguably the most important tool, Loki includes customer application data ranging from server performance to your application log data. Grafana uses Loki to store and query logs. Promtail – an agent that collects logs – integrates with Kubernetes, which is where your customer application resides. Promtail collects data from logs along with certain runtime system data.
+   * Arguably the most important tool, Loki includes customer application data ranging from server performance to your application log data. Grafana uses Loki to store and query logs. Promtail is an agent that collects logs and integrates with Kubernetes, which is where your customer application resides. Promtail collects data from logs along with certain runtime system data.
 * Grafana
    * The visualization user interface (UI) or dashboard.
 
@@ -82,7 +82,7 @@ To create queries:
    Grafana contains the new dashboard panel. You can search the dashboard name for quick access. You also can view this dashboard on your **Home** page under **Recently viewed dashboards**. Here, you can select the **Star** icon next to the entry, making it a **Favorite** under **Starred dashboards**. Starring the dashboards allows faster and more efficient access.
 11.	Edit the panel and customize visualization settings as preferred, using the **Switch to table** and **Open visualization suggestions** options.
 
-As noted in the steps above, you can create a query and add this query to a dashboard. Similarly, you also can select **Dashboards** then **New dashboard** from the left navigation pane on the **Home** page, add a panel, create a query, then add this query to a new dashboard – repeating most of the previous steps.
+As noted in the steps above, you can create a query and add this query to a dashboard. Similarly, you also can select **Dashboards** then **New dashboard** from the left navigation pane on the **Home** page, add a panel, create a query, then add this query to a new dashboard and repeat most of the previous steps.
 
 **Content Removed**
 

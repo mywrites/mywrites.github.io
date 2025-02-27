@@ -3,7 +3,7 @@ layout: default
 title: "Application Delivery"
 category: "Policies"
 ---
-This policy establishes a set of requirements designed to standardize application delivery methods; more specifically, this policy ensures there is a consistent, efficient, and secure method in place for moving applications from servers to user workstations. Citrix, located on the desktop, is the mechanism servers use to deliver applications – using the product: XenApp. The XenApp software allows the operation of all of our company's medical applications. The XenApp software, not visible to users, allows Citrix Administrators to access the application to troubleshoot issues. The Citrix XenApp and XenDesktop technologies are the primary methods for delivering applications to user workstations.
+This policy establishes a set of requirements designed to standardize application delivery methods and ensures there is a consistent, efficient, and secure method for moving applications from servers to PCs and workstations. Citrix, located on the desktop, is the mechanism servers use to deliver applications using the product: XenApp. The XenApp software allows the operation of all of our company's medical applications. The XenApp software, not visible to users, allows Citrix Administrators to access the application to troubleshoot issues. The Citrix XenApp and XenDesktop technologies are the primary methods for delivering applications to user workstations.
 
 ## Policy Statement
 The *Citrix XenApp* policy identifies the requirements that must be satisfied to provide standard application delivery to user PCs and workstations.
@@ -34,7 +34,7 @@ The procedures delineated below must be followed to comply with the Citrix XenAp
 1. All hardware attached to Citrix servers or workstations using a Citrix receiver or resource must, before deployment, be listed on the current Citrix/Windows/VMware compatibility matrix, which is available online. Attached hardware not on these compatibility matrices will not be supported in the Citrix environment.
 1. XenApp software deployments must be performed in accordance with the best performance and reliability practices that Citrix Systems, Inc. provides for any current and supported versions of XenApp.
 1. Administrative/root access to Citrix infrastructure devices such as Server OS, Citrix Admin Console, and NetScaler is not allowed without written approval from the Systems Assurance Group (SAG).
-1. The vendor or a representative must install all vendor application software onto XenApp servers. IT support must be readily available to provide needed system access to accomplish this task. Per **Redacted** IT support protocol, no configuration changes are permitted to the Windows OS that will compromise security or OS functionality. SAG must review any potential issues to include the aforementioned changes before any production system deployments are authorized.
+1. The vendor or a representative must install all vendor application software onto XenApp servers. IT support must be readily available to provide needed system access to accomplish this task. Per **Redacted** IT support protocol, no configuration changes are permitted to the Windows OS that will compromise security or OS functionality. SAG must review any potential issues including the aforementioned changes before any production system deployments are authorized.
 1. Failure by the vendor to upgrade the application to support new releases of Windows Server OS, VMware, or Citrix XenApp will result in loss of support for the application by the IT staff. 
 1. Any production application performance or reliability issue that occurs after a vendor application publication and deployment on a XenApp server must be the responsibility of the vendor to remedy. IT support will engage and make any necessary and reasonable changes to fix any application or reliability issue, only at the direction of the application vendor.
 1. The vendor must provide any/all performance-enhancing solutions to satisfy the **Redacted** patient care providers and ancillary support staff requirements.
@@ -58,7 +58,7 @@ If the requested change meets the compliance standards referenced in this docume
 Exception requests or permission to violate any of the above-referenced procedures/requirements must be submitted to SAG via completion of the *Systems Administration Change of Policy Request* form. This form is available on the corporate SharePoint site, and a copy may be emailed to users unable to access this document on the network. 
 
 ## Responsibilities
-The implementation of this policy rests largely in the hands of members of the Systems Administration Group; however, all **Redacted** employees, contractors to include persons or companies, and third-party entities/associates who perform work in the data centers in any capacity must comply with this policy. 
+The implementation of this policy rests largely in the hands of members of the Systems Administration Group; however, all **Redacted** employees, contractors including persons or companies, and third-party entities/associates who perform work in the data centers in any capacity must comply with this policy. 
 
 ## Enforcement
 To ensure compliance, TSO and ISO are responsible for enforcing this policy.

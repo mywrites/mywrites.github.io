@@ -33,7 +33,7 @@ The documentation hierarchy is inclusive of three primary levels:
 ![QMS Hierarchy](/img/qms1.png)
 
 ## Document Control
-This component ensures that there is a document review and approval process, which involves circulation of this document to designated Senior Management personnel. This team reviews the document and, ultimately, approves all content. This team also is responsible for document updates and revisions. The QMS document control procedures address document review, approval, update, and revision to include the date, time and signature associated with these changes. These procedures address the timeframe that documents will be retained. An electronic copy of the QMS is stored on the network and available to authorized personnel. Records and other materials compiled during the creation of the documented QMS are maintained on hard copy and soft copy for a specified timeframe.
+This component ensures that there is a document review and approval process, which involves circulation of this document to designated Senior Management personnel. This team reviews the document and, ultimately, approves all content. This team also is responsible for document updates and revisions. The QMS document control procedures address document review, approval, update, and revision including the date, time and signature associated with these changes. These procedures address the timeframe that documents will be retained. An electronic copy of the QMS is stored on the network and available to authorized personnel. Records and other materials compiled during the creation of the documented QMS are maintained on hard copy and soft copy for a specified timeframe.
 
 ## Quality Policy
 Management's commitment to quality is evidenced in the actual language of the Quality Policy, its ability to monitor related processes, the practice of measuring process effectiveness, and the emphasis on continuous improvement. Management further demonstrates commitment through Management Reviews, performance metrics, and communication with all employees. Management defines and communicates the Quality Policy throughout the organization. Management ensures resources are in place to maintain the integrity of the QMS.
@@ -62,7 +62,7 @@ The Emergency Action Plan must be followed during fires, spills of hazardous mat
 When alarms, horns, and/or strobes are signaled, the building is evacuated immediately. All occupants must leave the building, using the nearest exit and proceeding to the appropriate assembly area. Area emergency evacuation representatives conduct roll calls to account for the whereabouts of all team members. Visitors must remain with their representative and proceed to the assembly area where they remain until the representative gives the all-clear to re-enter the facility.
 
 ## Personal Protective Equipment (PPE)
-PPE is required in specified areas of the site along with safety shoes. Certain forms of hearing protection, protective clothing, and safety glasses with side shields are required – contingent upon the activity/operation.
+PPE is required in specified areas of the site along with safety shoes. Certain forms of hearing protection, protective clothing, and safety glasses with side shields are required contingent upon the activity/operation.
 
 ## Product Realization Planning
 The QMS documents the processes used to develop, manufacture, and deliver medical device products and services such that all procedures are compliant with the aforementioned standards and regulatory requirements. Our team also ensures contractual requirements are satisfied, and agreements and customer orders comply with regulatory requirements.
@@ -70,7 +70,7 @@ The QMS documents the processes used to develop, manufacture, and deliver medica
 ## Design and Development Planning
 Design Control & Commercialization (DCC) Guidelines describe the controlled process by which new products and services are designed and commercialized. This process includes activities to control and verify the design of a product to ensure specific design requirements are satisfied. Records such as reports, requirements, and input documents are generated and maintained as defined within the DCC.
 
-**Remaining sections removed to include Design and Development (additional content), Production and Service Control, Risk Management, Corrective and Preventive Actions, Internal Audits, Training, Customer Feedback, and additional Regulatory Compliance.**
+**Content Removed**
 
 
 

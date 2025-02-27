@@ -9,7 +9,7 @@ Appgate Software-Defined Perimeter (SDP) is a Department of Defense (DoD)-approv
 * Enforcing a *verify then trust* security approach to network access.
 * Promoting Least Privilege, solely providing as-needed access to network resources.
 
-P1 SSO also helps authenticate and authorize DoD network users. While you can browse IL2 without Appgate SDP access, you must – in some cases – use Appgate SDP to enter IL4+ environments. For IL5 access outside the NIPRNet boundary, you must also run compliance scripts.
+P1 SSO also helps authenticate and authorize DoD network users. While you can browse IL2 without Appgate SDP access, in some cases, you must use Appgate SDP to enter IL4+ environments. For IL5 access outside the NIPRNet boundary, you must also run compliance scripts.
 
 ## NIPRNet
 The DoD uses **Non-Classified Internet Protocol Router Network (NIPRNet)** to manage unclassified information. If you use NIPRNet or NIPRNet VPN, such as Air Force Desktop Anywhere, you can access IL4 and IL5 without using Appgate SDP. DoD's P1 team requires that you use Appgate SDP if you do not use NIPRNet or NIPRNet VPN, as you cannot access IL4 or IL5 without using one of these options.
