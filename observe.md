@@ -49,15 +49,21 @@ You can create, edit, and execute queries using **Explore**.
 
 To create queries:
 1. Select **Explore** from the left navigation pane.
+   
    The **Query Editor** opens.
 1. Select the drop-down arrow near the top left section of the page to choose the datasource you want to query if, in fact, you have configured more than one datasource. 
    
    For example, you can select {ORG}-prd-customer.
+
+   This tells Grafana to get data from the live environment of a specific company, with an emphasis on customer-related information.
 1. Create a LogQL query, using format:
    
    {log-stream-selector} | log-pipeline
    
-   The stream selector should always include the application namespace and can include additional options. This query section narrows the logs your query searches. The log pipeline contains functions or transformations that are performed on the logs you specify with the stream selector.
+   This tells Grafana to use LogQL, the language that searches and filters logs stored in Loki, to access specific logs. 
+   The stream selector should always include the application namespace and can include additional options. This query section narrows the logs your query searches. 
+   
+   The log pipeline contains functions or transformations that are performed on the logs you specify with the stream selector. The log pipeline tells Grafana what you want to do with the logs once retrieved.
 
    **EXAMPLE QUERY**: This query searches for log entries that contain “400”.
    
