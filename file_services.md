@@ -63,7 +63,7 @@ The Director of TSO and the Manager of the Systems Administration Group will ver
 
 All systems will be scanned at regular intervals to determine compliance of patch management. Any item found noncompliant will require immediate remediation.
 
-Users in violation of this policy may lose their privileges to network access as explained in the *Corporate Compliance* document and the *Employee Handbook*; in addition, failure to comply with this policy may result in disciplinary actions to include job termination.
+Users in violation of this policy may lose their privileges to network access, as explained in the *Corporate Compliance* document and the *Employee Handbook*; in addition, failure to comply with this policy may result in disciplinary actions to include job termination.
 
 <style>
   table {
