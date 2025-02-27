@@ -46,7 +46,7 @@ category: "Life Sciences"
     ![Analyze](/img/analyze5.png)
  
    * If you are using a pre-filled well plate, remove foil.
-   * If you are manually preparing a well plate, pipette reagents and calibrator solution into an empty well plate.
+   * If you are manually preparing a well plate, *pipette* reagents and calibrator solution into an empty well plate.
 * Maximize the **Software Login Credentials** screen and enter your credentials.
 * Select the **Run** tab.
 * Enter a **Run Name**.
@@ -68,11 +68,11 @@ After the Run completes, you must properly dispose of consumables per your compa
 | Exterior surfaces          | Once a month                         | Wipe with damp cloth and 70% IPA (allow to dry)
 | Consumables drawer         | After each panel                     | 70% IPA (allow to dry)
 | Removable consumables tray | After each panel                     | 70% IPA (allow to dry)
-| Priming bottle exterior    | Prior to returning priming bottle to priming bottle holder following the addition of priming fluid | 70% IPA (allow to dry)
-| Priming bottle holder      | Prior to returning priming bottle to priming bottle holder following the addition of priming fluid | 70% IPA (allow to dry)
+| Priming bottle exterior    | Prior to returning priming bottle to priming bottle holder, following the addition of priming fluid | 70% IPA (allow to dry)
+| Priming bottle holder      | Prior to returning priming bottle to priming bottle holder, following the addition of priming fluid | 70% IPA (allow to dry)
 
 **Contamination Suspected**: 
-10% bleach solution (allow to dry) followed by 70% IPA (allow to dry) 
+10% bleach solution (allow to dry) followed by 70% IPA (allow to dry). 
 Avoid direct fluid ingress into any openings on exterior.
 
 

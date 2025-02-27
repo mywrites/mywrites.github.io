@@ -3,7 +3,7 @@ layout: default
 title: "Instructions for Use"
 category: "Life Sciences"
 ---
-The Medical Device is designed to detect human genetic diseases via an automated molecular diagnostic system, using Polymerase Chain Reaction (PCR) for DNA amplification and High Resolution Melting Analysis (HRMA) for DNA detection.
+The Medical Device is designed to detect human genetic diseases via an automated molecular diagnostic system, using Polymerase Chain Reaction (PCR) for DNA amplification and High Resolution Melting (HRM) analysis for DNA detection.
 
 The Medical Device is intended for Research Use Only and is not to be used in diagnostic procedures.
 
@@ -22,8 +22,8 @@ To use and operate the priming station properly, follow the steps documented bel
     ![IFU](/img/ifu1.png)
 
 1. Place a waste well membrane [PART NUMBER REMOVED] on the cartridge to be primed, using the membrane alignment tool [PART NUMBER REMOVED] if necessary.
-1. Use/lift the handle to open the priming cartridge lid,.
-1. Place the cartridge on the nest (with the black heat sink facing downward) as depicted in the image below.
+1. Use/lift the handle to open the priming cartridge lid.
+1. Place the cartridge on the nest with the black heat sink facing downward, as depicted in the image below.
 1. Press the **Done** button.
 1. Add DI water (approximately five (5) ml) to the water reservoir fill line, pressing the **Done** button again upon completion.
 1. Close the lid.

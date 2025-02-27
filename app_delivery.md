@@ -13,7 +13,7 @@ The following terms are specific to the *Application Delivery Method* policy:
 
 | **Terms**                           | **Descriptions**                                       |
 | ------------------------------------| -------------------------------------------------------|
-| Citrix XenApp                       | Citrix, located on the desktop, is the mechanism servers use to deliver applications – using the product: XenApp. This software backend, not visible to users, allows Citrix Administrators to access the application to troubleshoot issues. The Citrix XenApp/XenDesktop technologies are the primary methods of delivering applications to user PCs and workstations. |
+| Citrix XenApp                       | This software backend, not visible to users, allows Citrix Administrators to access the application to troubleshoot issues. The Citrix XenApp/XenDesktop technologies are the primary methods of delivering applications to user PCs and workstations. |
 | Information Security Officer (ISO)  | Team member charged with developing, implementing, enforcing, and maintaining IT security standards for all data systems, thus ensuring there are no breaches and all information and patient data remain safeguarded. The ISO has a range of other responsibilities, such as performing audits, investigating security incidents, evaluating IT risks, and determining IT security policy and strategy. |
 | Recovery Point Objective (RPO)     | Timeframe (maximum) within which data might be lost during an interruption of IT services. |
 | Recovery Time Objective (RTO)      | Timeframe within which an interruption must be resolved before business cohesion is affected. |
@@ -52,7 +52,7 @@ SAG meets on alternate Tuesdays. For unique situations (where approval is requir
 
 
 **NOTE**:<br/>
-If the requested change meets the compliance standards referenced in this document, the modification may be authorized by SAG and implemented in the **Redacted** Citrix environment. The approximate timeframe from the point the request is initiated to the actual approval/disapproval is 10 business days (for most requests) or as many as 30 days for more complex requests. If the request is rejected, SAG will provide an explanation which will include the restriction (operational/corporate/local/state/federal) that prevents request approval.
+If the requested change meets the compliance standards referenced in this document, the modification may be authorized by SAG and implemented in the **Redacted** Citrix environment. The approximate timeframe from when the request is initiated to the actual approval/disapproval is 10 business days (for most requests) or as many as 30 days for more complex requests. If the request is rejected, SAG will provide an explanation which will include the restriction (operational/corporate/local/state/federal) that prevents request approval.
 
 ## Forms
 Exception requests (or permission to violate any of the above-referenced procedures/requirements) must be submitted to SAG via completion of the *Systems Administration Change of Policy Request* form. This form is available on the corporate SharePoint site, and a copy may be emailed to users unable to access this document on the network. 
