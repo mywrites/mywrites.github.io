@@ -41,9 +41,6 @@ Users are associated with teams. These teams have permission solely to access th
 1. Double-click the selected dashboard.
    
    Grafana provides a graphical visualization. The related dashboard data and links will vary, as this content is unique to each customer’s application data and services. You can select links near the lower section of the page, if applicable, to view additional panels of data from Docker containers or Kubernetes pods. In some cases, you might have access to logs along with metadata associated with each log entry.
-1. Double-click the selected dashboard.
-   
-   Grafana provides a graphical visualization. The related dashboard data and links will vary, as this content is unique to each customer’s application data and services. You can select links near the lower section of the page, if applicable, to view additional panels of data from Docker containers or Kubernetes pods. In some cases, you might have access to logs along with metadata associated with each log entry.
 
    ![Observe](/img/observe1.png)
 
