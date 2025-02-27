@@ -4,7 +4,7 @@ title: "Observability"
 category: "Life Sciences"
 ---
 Grafana is an interactive data visualization platform that enables you to query your application's log data and, in turn, retrieve query results presented as logs, charts, graphs, and dashboards.
-The Observability Stack uses three tools:
+The Observability Stack uses two tools:
 * Loki
    * Arguably the most important tool, Loki includes customer application data ranging from server performance to your application log data. Grafana uses Loki to store and query logs. Promtail is an agent that collects logs and integrates with Kubernetes, which is where your customer application resides. Promtail collects data from logs along with certain runtime system data.
 * Grafana
