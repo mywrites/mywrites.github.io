@@ -46,6 +46,7 @@ Users are associated with teams. These teams have permission solely to access th
 
 ## Create Queries and Dashboards
 You can create, edit, and execute queries using **Explore**.
+
 To create queries:
 1. Select **Explore** from the left navigation pane.
    The **Query Editor** opens.
@@ -54,6 +55,7 @@ To create queries:
    For example, you can select {ORG}-prd-customer.
 1. Create a LogQL query, using format:
    {log-stream-selector} | log-pipeline
+   
    The stream selector should always include the application namespace and can include additional options. This query section narrows the logs your query searches. The log pipeline contains functions or transformations that are performed on the logs you specify with the stream selector.
 
    **EXAMPLE QUERY**: This query searches for log entries that contain “400”.
