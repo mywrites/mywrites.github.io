@@ -7,12 +7,12 @@ category: "Cloud"
 
 To provide its clients with complete access to their cloud resources, the product allows clients to access their cloud platform assets, perform routine tasks, monitor services, view reports, and make payments – all independent of customer representatives. 
 
-From virtual servers to storage devices and support tickets to pricing tools, the product provides a range of information and services to keep clients abreast of the activity in their cloud environment. With three cloud computing service models from which to choose (public cloud, private cloud, and hybrid cloud), clients can select the cloud offering that is most aligned with their business objectives. 
+From virtual servers to storage devices and support tickets to pricing tools, the product provides a range of information and services to keep clients abreast of the activity in their cloud environments. With three cloud computing service models from which to choose (public cloud, private cloud, and hybrid cloud), clients can select the cloud offering that is most aligned with their business objectives. 
 
 **Redacted**
 
 ## Overview
-This document provides insight into the underlying product framework. Specifically, this document describes the internal components that comprise this new cloud environment, while using text and detailed images to explain (and depict) how these entities function.
+This document provides insight into the underlying product framework. Specifically, this document describes the internal components that comprise this new cloud environment, while using text and detailed images to explain and depict how these entities function.
 
 This document audience includes system administrators and engineers who need to understand the cloud infrastructure.
 
@@ -28,15 +28,15 @@ The primary purpose of the infrastructure is to:
 ## Terms 
 While a *Glossary of Terms*, when included in technical documentation, is commonly located at the end of a manual, the placement of significant terms in this guide has been intentionally positioned near the beginning of this document – as to ensure you understand specific terminology such that you can comprehend the intricacies of the product framework as you navigate this document.
 
-| **Term**                   | **Description**                                                     |
+| **Terms**                 | **Descriptions**                                                     |
 | --------------------------|---------------------------------------------------------------------|
 | Blade Server              | Unlike the rack-mounted server, the blade server is housed in a chassis. The blade server is smaller and requires less energy. As such, this server needs less space and reduced cooling/air-conditioning. |
-| Chassis                   | Container-like device or enclosure that houses blade servers. Commonly, eight servers can fit into one chassis; in addition, 20 chassis devices can be routed into a single Fabric Interconnect (which handles connectivity to data center networks and storage components). The chassis devices, therefore, collectively can house up to 160 blade servers.|
-| Compute Cluster           | The Compute Cluster is the grouping (or space) where public and private cloud machines reside. All compute resources for clients are part of the Compute Cluster. The Compute Cluster ESXi hosts are connected to six distributed switches (all explained further in this document): ESXi Host Switch, ESXi Host, vMotion, iSCSI-A, iSCSI-B, Replication, VTEP (VXLAN Tunnel End Point) |
+| Chassis                   | Container-like device or enclosure that houses blade servers. Commonly, eight servers can fit into one chassis; in addition, 20 chassis devices can be routed into a single Fabric Interconnect, which handles connectivity to data center networks and storage components. The chassis devices collectively can house up to 160 blade servers.|
+| Compute Cluster           | The Compute Cluster is the grouping or space where public and private cloud machines reside. All compute resources for clients are part of the Compute Cluster. The Compute Cluster ESXi hosts are connected to six distributed switches; all explained further in this document: ESXi Host Switch, ESXi Host, vMotion, iSCSI-A, iSCSI-B, Replication, VTEP (VXLAN Tunnel End Point) |
 | Distributed Switch        | Device that automates and centralizes the management of virtual machine networking in a vSphere environment; in addition, it can centralize switching for an entire data center. When adding new hosts, the distributed switch – commonly referred to as the vSphere Distributed Switch or VDS – standardizes network configuration, which makes it easier and faster to add new servers to our cloud environment. |
 | Edge Cluster              | The purpose of the Edge Cluster is to provide the transit path from the VXLAN (virtual networks) to the physical outside or, more precisely, host Edge Service Gateways that provide the connectivity between the physical world (VLANs) and the virtual world (VXLAN logical switches). The Edge Cluster consists of two ESXi hosts and are connected to five distributed switches:  ESXi Host Switch (for host management), ESXi Host Vmotion, Replication, VTEP, EDGE   |
 | Enhanced vMotion Compatibility (EVC) Mode | A state that exists when all host computers in a cluster, for example, use computer chips from the same manufacturer; all chips may be AMD, for instance, or all chips may be Intel. | 
-| ESXi                      | Name (or type) of the VMware hypervisor used in the **Redacted** cloud environment. The ESXi hypervisor is the layer that separates the host machine from the virtual computer (or guest machine). |
+| ESXi                      | Name or type of the VMware hypervisor used in the **Redacted** cloud environment. The ESXi hypervisor is the layer that separates the host machine from the virtual computer or guest machine. |
 | Fabric Interconnect        | Entity that handles (or manages) the connectivity to the data center networks. The chassis, which houses blade servers, connects to the Fabric Interconnect via I/O modules. The Fabric Interconnect – in turn – connects to the data center networks and storage components. Fabric Interconnects are commonly used in pairs (Interconnect Fabric A and Interconnect Fabric B, for example). |
 | Fiber Channel (FC) Connectivity | Like Ethernet connectivity, fiber channels are used to transmit data quickly, simply, and affordably – commonly connecting data storage devices to servers. This network technology is scalable and backward compatible and, as such, you can add different switches for more capacity; the fiber channels will adjust to the connected device(s). |
 | Fiber Channel Switches | A network switch (aligned with the fiber channel protocol) used to transmit data for storage. |

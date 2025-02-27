@@ -13,7 +13,7 @@ category: "Configuration"
 
 The purpose of this Quick Start Guide is to, first, ensure you can acquire Synadia Cloud provisioned and authenticated credentials, which you will use to connect to the NATS server. At minimum, you must establish an account and a user.
 
-**PUBLISHED CONTENT BEGINS HERE**
+**PUBLISHED CONTENT BEGINS HERE**:
 
 The Synadia Cloud user guides, which accompany the Walkthrough [videos](https://docs.synadia.com/cloud/walkthrough), explore the dashboard and provide setup instructions. You can leverage this insight to configure your environment. 
 
