@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Requirements"
+title: "Specifications"
 category: "Cybersecurity"
 ---
 You must satisfy requirements referenced in the tables below. Ensure you comply with these specifications prior to contacting the Game Warden team.
