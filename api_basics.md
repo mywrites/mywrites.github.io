@@ -41,7 +41,7 @@ When developers build APIs, they commonly establish where the API retrieves data
 * **Cache**
   * If you access [CNN](https://www.cnn.com) throughout the day for news updates, your browser accesses CNN’s server, retrieves content, and stores this data in your browser’s cache. During subsequent visits to the site that day, the browser checks the cache first. If the website content is still there, the site will load this content to your computer screen or mobile device – making access much faster since the browser does not have to re-access the CNN server.
 * **Cloud Storage**
-  * The File Storage example above (Gmail using the Google Drive API for photo retrieval) also applies to cloud storage since Google Drive stores data in the cloud. Microsoft’s OneDrive, Apple’s iCloud, and Amazon Drive function similarly.
+  * The **File Storage** example above (Gmail using the Google Drive API for photo retrieval) also applies to cloud storage since Google Drive stores data in the cloud. Microsoft’s OneDrive, Apple’s iCloud, and Amazon Drive function similarly.
 
 ## REST vs SOAP
 There are two primary API types: REST and SOAP
