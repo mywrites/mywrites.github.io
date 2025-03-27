@@ -12,9 +12,9 @@ There is the **Company** database that includes the **Users**, **Workstations**,
 There are common authentication methods or ways to ensure the app or website, for example, is allowed to request data:
 
 * API Key
-  * You typically get the API key, itself, from the API site you are attempting to access. As a prerequisite, you might have to access the site and create an account before you can generate this key. The API key might be an alphanumeric string of approximately 40 characters, is commonly included in the **Authorization Header** of an API request (discussed further below), and can be used to authenticate and gain access to an API. API keys commonly are permanent. Read **Samples** for a detailed example and explanation of API key use.
+  * You typically get the API key, itself, from the API site you are attempting to access. As a prerequisite, you might have to access the site and create an account before you can generate this key. The API key might be an alphanumeric string of approximately 40 characters, is commonly included in the **Authorization Header** of an API request (discussed further below), and can be used to authenticate and gain access to an API. API keys commonly are permanent. Read [API Key](#example-authorization-header-api-key) for a detailed example and explanation of API key use.
 * Bearer Token
-  * You typically get the bearer token, itself, from the API site you are attempting to access. As a prerequisite, you might have to access the site and create an account before you can generate this token. The token might be an alphanumeric string of approximately 40 characters, is commonly included in the **Authorization Header** of an API request (discussed further below), and can be used to authenticate and gain access to an API. Bearer tokens are considered more secure than API keys but are usually temporary. Read **Samples** for a detailed example and explanation of bearer token use.
+  * You typically get the bearer token, itself, from the API site you are attempting to access. As a prerequisite, you might have to access the site and create an account before you can generate this token. The token might be an alphanumeric string of approximately 40 characters, is commonly included in the **Authorization Header** of an API request (discussed further below), and can be used to authenticate and gain access to an API. Bearer tokens are considered more secure than API keys but are usually temporary. Read [Bearer Token](#example-authorization-header-bearer-token) for a detailed example and explanation of bearer token use.
 * Auth/OAuth2
   * Open Authorization (OAuth) provides permission for one app to access another app without providing login credentials; instead, the destination app might display a message indicating, for example, *Sign in with Google*. OAuth enables permission for access without, in this case, sharing your Google login credentials.
 
@@ -176,7 +176,7 @@ https://api.github.com
 https://myretailsite/api/v1.com
 ```
 
-**api** does not have to be part of the base URL for an API name.
+Although not as common, **api** does not have to be part of the base URL for an API name.
 
 **add path**: <br/>
 

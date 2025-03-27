@@ -60,4 +60,4 @@ Relative to payment for APIs, there are three common scenarios:
 
 When you access API sites, you will know which scenario is at play. 
 
-**Rate Limiting** (explained in the **Reference/Tutorial** section) can also impact API use. With rate limiting, there might be a restriction specific to the number of times you can make an API request per day or even per minute. Exceeding limits might result in a warning message, a statement that restricts further usage for a designated time period, or an additional charge for this excess usage.
+[Rate Limiting](api_ref_guide.md#rate-limiting) (explained in the **Reference/Tutorial**) can also impact API use. With rate limiting, there might be a restriction specific to the number of times you can make an API request per day or even per minute. Exceeding limits might result in a warning message, a statement that restricts further usage for a designated time period, or an additional charge for this excess usage.
