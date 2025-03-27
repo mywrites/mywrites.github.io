@@ -10,9 +10,9 @@ Below is an image that contains Python code (as opposed to cURL), which depicts 
 **EXPLANATION**
 
 * **import requests** <br/>
-  * You must use this Python statement when you want to interact with websites. By importing requests, you have access to all the tools you need to perform website interactions. In this context, **import requests** involves importing the Requests library that helps you manage API requests and responses.
+  * You must use this Python statement when you want to interact with websites. By importing requests, you have access to all the tools you need to perform website interactions. In this context, **import requests** involves importing the Requests library that helps you manage API requests and responses. <br/>
 * **/product** <br/>
-  * Use product ID 54321
+  * Use product ID 54321 <br/>
 * **api_key** = “12345678901111”
   * Use the API Key generated from, for example:
 
@@ -55,7 +55,7 @@ Below is a short, basic example of how to structure a general API reference.
 
 **Endpoint**: /api/website/status
 
-**api** suggests you are interacting with the API. From this API, you are seeking the status of the website. You know to use the words **website** and **status** because they were included in the **schemas** the developer provided. Schemas help you know the exact words to use in your request and the exact words to expect in the response. For example, based on the response below, status is online or offline as opposed to active or inactive.
+**api** suggests you are interacting with the API. From this API, you are seeking the status of the website. You know to use the words **website** and **status** because they were included in the **schemas** the developer provided. Schemas help you know the exact words to use in your request and the exact words to expect in the response. For example, based on the response below, status is **online** or **offline** as opposed to **active** or **inactive**.
 
 **Method**: GET <br/>
 GET means you are retrieving information.
