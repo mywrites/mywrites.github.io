@@ -13,7 +13,7 @@ Below is an image that contains Python code (as opposed to cURL), which depicts 
   * You must use this Python statement when you want to interact with websites. By importing requests, you have access to all the tools you need to perform website interactions. In this context, **import requests** involves importing the Requests library that helps you manage API requests and responses. <br/><br/>
 
 * **/product** <br/>
-  * Use product ID 54321 <br/>
+  * Use product ID 54321 <br/><br/>
   
 * **api_key** = “12345678901111”
   * Use the API Key generated from, for example:
