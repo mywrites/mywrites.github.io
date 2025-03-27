@@ -6,7 +6,7 @@ category: "APIs"
 An API Reference Guide explains how an API works, which enables developers to properly use the API. The guide provides an example format of requests, responses, and response codes. This guide might also include an explanation of parameters, error handling, rate limiting, versioning, and schemas.
 
 **NOTE**: <br/>
-There is the **Company** database that includes the **Users**, **Workstations**, **Managers**, and **Human Resources** tables. In this **Reference (Tutorial)**, you will primarily use the API to interact with the **Users** table in the **Company** database. For example purposes, there are also several "pseudo" websites. These sites, such as **www.mycompany.com**, do not appear as clickable links.
+There is the **Company** database that includes the **Users**, **Workstations**, **Managers**, and **Human Resources** tables. In this **Reference (Tutorial)**, you will primarily use the API to interact with the **Users** table in the **Company** database. 
 
 ## Authentication
 There are common authentication methods or ways to ensure the app or website, for example, is allowed to request data:
@@ -19,7 +19,7 @@ There are common authentication methods or ways to ensure the app or website, fo
   * Open Authorization (OAuth) provides permission for one app to access another app without providing login credentials; instead, the destination app might display a message indicating, for example, *Sign in with Google*. OAuth enables permission for access without, in this case, sharing your Google login credentials.
 
 ## Endpoints
-The data you request represents the endpoint. For example, if you are requesting the names of computer users within your organization, names represent endpoints. If you are requesting a specific user, such as user ID 00001, then user ID 00001 represents the endpoint.
+The data you request represents the endpoint. For example, if you are requesting the names of computer users within your organization, **names** represent endpoints. If you are requesting a specific user, such as user ID 00001, then user **ID 00001** represents the endpoint.
 
 ## Methods
 When you send a request, you are asking the destination computer system or service to **do** something. These requests include methods, which are specific verbs or action words. There are four common API methods:
@@ -68,7 +68,7 @@ Below is a basic, high-level request for information about a specific user.
 
 GET /users/100
 
-This request retrieves information about ID 100 from the **Users** table. The API receives this request then accesses the Users table to retrieve all available information about the user with unique ID 100. 
+This request retrieves information about unique ID 100 from the **Users** table. The API receives this request then accesses the Users table to retrieve all available information about the user with unique ID 100. 
 
 **Response**: <br/>
 
@@ -80,7 +80,7 @@ This request retrieves information about ID 100 from the **Users** table. The AP
 }
 ```
 
-In this example, the API retrieves **all** information from the Users table about ID 100 and provides a JSON response.
+In this example, the API retrieves **all** information from the Users table about unique ID 100 and provides a JSON response.
 
 **Example 2 : Users table in Company database**
 
@@ -136,7 +136,7 @@ The Users table now appears as follows:
 
 ![Users' Table](/img/table_users_putB.png)
 
-The API received the request to **update** the table (PUT method) yet **added** a new entry. If you recall from the **Methods** section above, you use PUT to update information and POST to add or create new information. While the PUT method works, technically, the best method/syntax for adding a new entry relative to this example is **POST/users**. This syntax (POST) will add the entry and auto-generate an ID, which is more efficient. The PUT method, however, treated the request like an update to an existing entry because we provided ID 102 – signaling that the entry was already available, thereby making this an update. Again, PUT is acceptable and enables you to specify an ID. Typically, the system auto-generates IDs. (Just keeping you on your toes!)
+The API received the request to **update** the table (PUT method) yet **added** a new entry. If you recall from the **Methods** section above, you use PUT to update information and POST to add or create new information. While the PUT method works, technically, the best method/syntax for adding a new entry relative to this example is **POST/users**. This syntax (POST) will add the entry and auto-generate an ID, which is more efficient because this ensures that the ID is, in fact, unique. The PUT method, however, treated the request as an update to an existing entry because we provided unique ID 102 – signaling that the entry was already available, thereby making this an update. Again, PUT is acceptable and enables you to specify a unique ID. As a matter of emphasis, the system auto-generates IDs. (Just keeping you on your toes!)
 
 ## Response Codes
 An API response code (also known as an HTTP response code) is the result or status of an API request. There are seven common response codes:
@@ -176,7 +176,7 @@ https://api.github.com
 https://myretailsite/api/v1.com
 ```
 
-Although not as common, **api** does not have to be part of the base URL for an API name.
+Although not as common, the text – **api** – does not have to be part of the base URL for an API.
 
 **add path**: <br/>
 
@@ -196,9 +196,9 @@ https://myretailsite/api/v1/product/{product_id}
 https://myretailsite.com/api/v1/product/54321
 ```
 
-For this retail site, myretailsite/api/v1/product alludes to product information. Adding a parameter, such as product ID **54321**, provide specificity which ensures that the request is for a specific product. The **v1** represents the API version. Although this URL does not actually host product data, it serves as the highway leading to this information. The product data, itself, might be housed in a data storage location such as a database.
+For this retail site, the **path** alludes to product information. Adding a parameter, such as product ID **54321**, provides specificity which ensures that the request is for a specific product. The **v1** represents the API version. Although this URL does not actually host product data, it serves as the highway leading to this information. The product data, itself, might be housed in a data storage location such as a database.
 
-Adding paths, such as **/users** and **/posts** for example, provides specificity relative to endpoints for data retrieval. Parameters, such as **54321**, provide additional and more precise information. Paths point to the resource or endpoint, and parameters refine or narrow the request by adding details.
+Adding paths, such as **/about**, **/users**, and **/product**, for example, provide specificity relative to endpoints for data retrieval. Parameters, such as **54321**, provide additional and more precise information. Paths point to the resource or endpoint, and parameters refine or narrow the request by adding details.
 
 ## Authorization Header
 One of the easiest and most efficient ways to access an API site that requires authentication, such as an **API Key** or **Bearer Token**, is to create an Authorization Header using cURL, which is a tool/library that allows you to interact with APIs and websites. You can execute this code in various command-line interfaces (CLIs), such as the MS Windows command prompt, Mac/Linux terminal, and in a VS Code terminal or similar Integrated Development Environment (IDE).
