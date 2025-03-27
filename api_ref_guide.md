@@ -24,10 +24,10 @@ The data you request represents the endpoint. For example, if you are requesting
 ## Methods
 When you send a request, you are asking the destination computer system or service to **do** something. These requests include methods, which are specific verbs or action words. There are four common API methods:
 
-* **GET** – **Retrieves** information.
-* **POST** – **Sends** or **Creates** new information.
-* **PUT** – **Updates** existing information.
-* **DELETE** – **Removes** information.
+* **GET** – **Retrieves** information
+* **POST** – **Sends** or **Creates** new information
+* **PUT** – **Updates** existing information
+* **DELETE** – **Removes** information
 
 ## JSON
 While API requests include methods, API responses commonly display in JavaScript Object Notation (JSON). This format presents data as a **name/value pair**. JSON is not a programming language but rather a vehicle used to store and transfer data from one computer system or service to another. This format (name/value pair) is also one that computers can easily understand.

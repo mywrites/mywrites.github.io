@@ -10,7 +10,7 @@ Below is an image that contains Python code (as opposed to cURL), which depicts 
 **EXPLANATION**
 
 * **import requests** <br/>
-  * You must use this Python statement when you want to interact with websites. By importing requests, you have access to all the tools you need to perform website interactions. In this context, **import requests** involves importing the Requests library that helps you manage API requests and responses. <br/><br/>
+  * You must use this Python statement when you want to interact with websites. By importing requests, you have access to all the tools you need to perform website interactions. In this context, **import requests** involves importing the Requests module that helps you manage API requests and responses. <br/><br/>
 
 * **/product** <br/>
   * Use product ID 54321 <br/><br/>
@@ -19,7 +19,7 @@ Below is an image that contains Python code (as opposed to cURL), which depicts 
   * Use the API Key generated from, for example:
 
     ```
-    https://myretailsite.com
+    https://myretailsite.com/api/v1
     ```
   
 * **api_url** = 
@@ -35,10 +35,11 @@ Below is an image that contains Python code (as opposed to cURL), which depicts 
 
 * **data = response.json()** 
   * This statement converts the API response into the JSON name/value pair format. <br/>
-  * If the API request is successful (response code 200) and response received, <br/>
-  print **product name and price** <br/> 
-  else <br/>
-  print **“Error: Unable to retrieve product info.”**
+  * **Last five lines of code from image above**: <br/>
+    If the API request is successful (response code 200) and response received, <br/>
+    print **product name and price** <br/> 
+    else <br/>
+    print **“Error: Unable to retrieve product info.”**
 
 ## Basic API Reference Example
 Below is a short, basic example of how to structure a general API reference.
@@ -62,7 +63,7 @@ Below is a short, basic example of how to structure a general API reference.
 **Method**: GET <br/>
 GET means you are retrieving information.
 
-**Description**: This API checks if the website is active by providing a status: online or offline.
+**Description**: This API checks if the website is active by providing a status: **online** or **offline**.
 
 **Parameters**: <br/>
 url (required) – The URL of the company website.
