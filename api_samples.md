@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "A Closer Look"
+title: "A Closer Look . . ."
 category: "APIs"
 ---
 Below is an image that contains Python code (as opposed to cURL), which depicts API key use:
@@ -29,7 +29,8 @@ Below is an image that contains Python code (as opposed to cURL), which depicts 
   The API key is passed directly in the URL as a query parameter. The URL tells the API **where** to access this information and **what data** to return to the API.
 
 * **response = requests.get(url)** 
-  * This line sends a GET via the URL to retrieve the product information.
+  * This line sends a GET via the URL to retrieve the product information. <br/>
+
 * **data = response.json()** 
   * This statement converts the API response into the JSON name/value pair format. <br/>
   * If the API request is successful (response code 200) and response received, <br/>
@@ -63,8 +64,6 @@ GET means you are retrieving information.
 
 **Parameters**: <br/>
 url (required) – The URL of the company website.
-
-**Example**: 
 
 ```
 www.mycompany.com

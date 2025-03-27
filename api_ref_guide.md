@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Tutorial"
+title: "Reference/Tutorial"
 category: "APIs"
 ---
 An API Reference Guide explains how an API works, which enables developers to properly use the API. The guide provides an example format of requests, responses, and response codes. This guide might also include an explanation of parameters, error handling, rate limiting, versioning, and schemas.
 
-**NOTE**
+**NOTE**: <br/>
 There is the **Company** database that includes the **Users**, **Workstations**, **Managers**, and **Human Resources** tables. In this **Reference (Tutorial)**, you will primarily use the API to interact with the **Users** table in the **Company** database. For example purposes, there are also several "pseudo" websites. These sites, such as **www.mycompany.com**, do not appear as clickable links.
 
 ## Authentication
@@ -14,7 +14,7 @@ There are common authentication methods or ways to ensure the app or website, fo
 * API Key
   * You typically get the API key, itself, from the API site you are attempting to access. As a prerequisite, you might have to access the site and create an account before you can generate this key. The API key might be an alphanumeric string of approximately 40 characters, is commonly included in the **Authorization Header** of an API request (discussed further below), and can be used to authenticate and gain access to an API. API keys commonly are permanent. Read **Samples** for a detailed example and explanation of API key use.
 * Bearer Token
-  * You typically get the bearer token, itself, from the API site you are attempting to access. As a prerequisite, you might have to access the site and create an account before you can generate this token. The token might be an alphanumeric string of approximately 40 characters, is commonly included in the **Authorization Header** of an API request (discussed further below), and can be used to authenticate and gain access to an API. Bearer tokens are considered more secure than API keys but are usually temporary.
+  * You typically get the bearer token, itself, from the API site you are attempting to access. As a prerequisite, you might have to access the site and create an account before you can generate this token. The token might be an alphanumeric string of approximately 40 characters, is commonly included in the **Authorization Header** of an API request (discussed further below), and can be used to authenticate and gain access to an API. Bearer tokens are considered more secure than API keys but are usually temporary. Read **Samples** for a detailed example and explanation of bearer token use.
 * Auth/OAuth2
   * Open Authorization (OAuth) provides permission for one app to access another app without providing login credentials; instead, the destination app might display a message indicating, for example, *Sign in with Google*. OAuth enables permission for access without, in this case, sharing your Google login credentials.
 
@@ -203,7 +203,7 @@ Adding paths, such as **/users** and **/posts** for example, provides specificit
 ## Authorization Header
 One of the easiest and most efficient ways to access an API site that requires authentication, such as an **API Key** or **Bearer Token**, is to create an Authorization Header using cURL, which is a tool/library that allows you to interact with APIs and websites. You can execute this code in various command-line interfaces (CLIs), such as the MS Windows command prompt, Mac/Linux terminal, and in a VS Code terminal or similar Integrated Development Environment (IDE).
 
-**Example Authorization Header (API Key)**:
+### Example Authorization Header (API Key)
 
 ```
 curl -H “Authorization: APIKey 12345678901111” https://api.mycompany.com/data 
@@ -219,7 +219,7 @@ https://api.mycompany.com/data
 
 This is the API endpoint you are requesting. 
 
-**Example Authorization Header (Bearer Token)**:
+### Example Authorization Header (Bearer Token)
 
 ```
 curl -H “Authorization: Bearer 12345678901111” https://api.mycompany.com/data 
