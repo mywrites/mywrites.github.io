@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Overview"
+title: "APIs: 101"
 category: "APIs"
 ---
 Application Programming Interfaces (APIs) allow computers to talk to one another – sending messages (**requests**) from one device and receiving replies (**responses**) from the other.
