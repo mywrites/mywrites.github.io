@@ -41,12 +41,12 @@ Below is an image that contains Python code (as opposed to cURL), which depicts 
     else <br/>
     print **“Error: Unable to retrieve product info.”**
 
-## Basic API Reference Example
+## Basic Example with API Specifications
 Below is a short, basic example of how to structure a general API reference.
 
 **Scenario**: Developers at your company built an API to check to ensure the company website is online. A developer can execute this API check in a command-line interface (CLI) terminal and unbeknownst to front-end website users.
 
-**Basic references to include:** 
+**API specifications include:** 
 1. **Endpoint**: URL path of the API.
 1. **Method**: HTTP method used (GET, POST, for example).
 1. **Description**: Explanation of endpoint.
@@ -54,7 +54,7 @@ Below is a short, basic example of how to structure a general API reference.
 1. **Response**: Name/value pair (usually in JSON).
 1. **Response Codes**: HTTP status codes the API can return along with their definitions.
 
-**Example API Reference**
+**Example using the API specifications noted above:**
 
 **Endpoint**: /api/website/status
 

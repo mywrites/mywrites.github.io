@@ -3,7 +3,7 @@ layout: default
 title: "Reference/Tutorial"
 category: "APIs"
 ---
-An API Reference Guide explains how an API works, which enables developers to properly use the API. The guide provides an example format of requests, responses, and response codes. This guide might also include an explanation of parameters, error handling, rate limiting, versioning, and schemas.
+An API Reference Guide explains how an API works, which enables developers to properly use the API. The guide provides an example format of endpoints, methods, requests, responses, and response codes. This guide might also include an explanation of parameters, error handling, rate limiting, versioning, and schemas. Collectively, these API Reference Guide inclusions are commonly referred to as API specifications.
 
 **NOTE**: <br/>
 There is a **Company** database that includes the **Users**, **Workstations**, **Managers**, and **Human Resources** tables. In this **Reference (Tutorial)**, you will primarily use the API to interact with the **Users** table in the **Company** database. 

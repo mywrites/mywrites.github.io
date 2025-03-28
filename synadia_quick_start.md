@@ -3,7 +3,7 @@ layout: default
 title: "Quick Start Guide"
 category: "Configuration"
 ---
-**CONTEXT**: I created six user guides for Synadia Communications Inc., documenting configuration of their distributed systems/communications solution: NATS. Applications, IoT devices, and cloud-based services use NATS for secure, fast, and efficient message exchange. 
+**CONTEXT**: I created six [user guides](https://docs.synadia.com/cloud/user-guides) for Synadia Communications Inc., documenting configuration of their product/solution, NATS, which leverages a distributed system. Applications, IoT devices, and cloud-based services use NATS for secure, fast, and efficient message exchange. 
 
 * Need to manage traffic lights and control traffic flow? Use NATS!
 * Need to send mission control commands to satellites? Use NATS!
