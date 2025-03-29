@@ -7,16 +7,16 @@ Below is an image that contains Python code (as opposed to cURL), which depicts 
 
 ![API Key](/img/sample1.png)
 
-**EXPLANATION**
+**Scenario**: A user has accessed a retail website to inquire about the availability of product ID **#54321**.
 
 * **import requests** <br/>
   * You must use this Python statement when you want to interact with websites. By importing requests, you have access to all the tools you need to perform website interactions. In this context, **import requests** involves importing the Requests module that helps you manage API requests and responses. <br/><br/>
 
-* **/product** <br/>
-  * Use product ID 54321 <br/><br/>
+  * **/product** <br/>
+   * Use product ID **54321** <br/><br/>
   
-* **api_key** = “12345678901111”
-  * Use the API Key generated from, for example:
+  * **api_key** = “12345678901111”
+   * Use the API Key generated from, for example:
 
     ```
     https://myretailsite.com/api/v1
@@ -33,9 +33,9 @@ Below is an image that contains Python code (as opposed to cURL), which depicts 
 * **response = requests.get(url)** 
   * This line sends a GET via the URL to retrieve the product information. <br/><br/>
 
-* **data = response.json()** 
-  * This statement converts the API response into the JSON name/value pair format. <br/>
-  * **Last five lines of code from image above**: <br/>
+  * **data = response.json()** 
+    * This statement converts the API response into the JSON name/value pair format. <br/>
+    * **Last five lines of code from image above**: <br/>
     If the API request is successful (response code 200) and response received, <br/>
     print **product name and price** <br/> 
     else <br/>
