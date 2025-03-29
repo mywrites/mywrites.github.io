@@ -271,7 +271,7 @@ Codes **400**, **401**, **403**, **404**, and **500** might be considered respon
 Developers who build the API commonly provide error handling insight.
 
 ## Rate Limiting
-Rate limiting is specific to the number of API requests that can be made during a designated time period. Rate limiting, therefore, can impact API usage. With rate limiting, there might be a restriction specific to the number of times you can make an API request per day or even per minute. Exceeding limits can result in a warning message, a statement or error message that restricts further usage for a designated time period, the amount of wait time required before API reuse, or an additional charge for this excess usage. Other factors might also be involved in exceeding specified rate limits. Understanding API rate limits can prevent exceeding its use.
+Rate limiting is specific to the number of API requests that can be made during a designated time period. Rate limiting, therefore, can impact API usage. With rate limiting, there might be a restriction specific to the number of times you can make an API request per month, per day, or even per minute. Exceeding limits can result in a warning message, a statement or error message that restricts further usage for a designated time period, the amount of wait time required before API reuse, or an additional charge for this excess usage. You might also be encouraged to upgrade your subscription plan. Other factors might also be involved in exceeding specified rate limits. Understanding API rate limits can prevent exceeding its use.
 
 Developers who build the API commonly share the rate limiting insight.
 
